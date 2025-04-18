@@ -1,0 +1,1063 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B01BA4C12C5F6D1800DD1821 /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = B01BA4C02C5F6D1800DD1821 /* CocoaAsyncSocket */; };
+		B042F8352BD20557000F9246 /* AllPermissionsImplApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8342BD20557000F9246 /* AllPermissionsImplApp.swift */; };
+		B042F8372BD20557000F9246 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8362BD20557000F9246 /* ContentView.swift */; };
+		B042F83B2BD20558000F9246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B042F83A2BD20558000F9246 /* Assets.xcassets */; };
+		B042F83F2BD20558000F9246 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B042F83E2BD20558000F9246 /* Preview Assets.xcassets */; };
+		B042F8492BD20558000F9246 /* AllPermissionsImplTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8482BD20558000F9246 /* AllPermissionsImplTests.swift */; };
+		B042F8532BD20558000F9246 /* AllPermissionsImplUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8522BD20558000F9246 /* AllPermissionsImplUITests.swift */; };
+		B042F8552BD20558000F9246 /* AllPermissionsImplUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8542BD20558000F9246 /* AllPermissionsImplUITestsLaunchTests.swift */; };
+		B042F8622BD206B3000F9246 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8612BD206B3000F9246 /* Models.swift */; };
+		B042F8842BD207B6000F9246 /* SpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8632BD207B5000F9246 /* SpeechView.swift */; };
+		B042F8852BD207B6000F9246 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8642BD207B5000F9246 /* FocusView.swift */; };
+		B042F8862BD207B6000F9246 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8652BD207B5000F9246 /* PhotosView.swift */; };
+		B042F8872BD207B6000F9246 /* SiriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8662BD207B5000F9246 /* SiriView.swift */; };
+		B042F8892BD207B6000F9246 /* NFCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8682BD207B5000F9246 /* NFCView.swift */; };
+		B042F88A2BD207B6000F9246 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8692BD207B5000F9246 /* LocationView.swift */; };
+		B042F88B2BD207B6000F9246 /* PasteAndFillOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F86A2BD207B5000F9246 /* PasteAndFillOTP.swift */; };
+		B042F88C2BD207B6000F9246 /* MicrophoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F86B2BD207B5000F9246 /* MicrophoneView.swift */; };
+		B042F88D2BD207B6000F9246 /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F86C2BD207B5000F9246 /* HealthView.swift */; };
+		B042F88E2BD207B6000F9246 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F86D2BD207B5000F9246 /* ContactView.swift */; };
+		B042F88F2BD207B6000F9246 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F86E2BD207B5000F9246 /* CalendarView.swift */; };
+		B042F8902BD207B6000F9246 /* VoIPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F86F2BD207B5000F9246 /* VoIPView.swift */; };
+		B042F8912BD207B6000F9246 /* MirrorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8702BD207B5000F9246 /* MirrorScreen.swift */; };
+		B042F8922BD207B6000F9246 /* LocalNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8712BD207B5000F9246 /* LocalNetworkView.swift */; };
+		B042F8932BD207B6000F9246 /* FileTransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8722BD207B5000F9246 /* FileTransferView.swift */; };
+		B042F8942BD207B6000F9246 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8732BD207B5000F9246 /* RemindersView.swift */; };
+		B042F8952BD207B6000F9246 /* HomeKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8742BD207B5000F9246 /* HomeKitView.swift */; };
+		B042F8962BD207B6000F9246 /* SensorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8752BD207B5000F9246 /* SensorView.swift */; };
+		B042F8972BD207B6000F9246 /* ATTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8762BD207B5000F9246 /* ATTView.swift */; };
+		B042F8982BD207B6000F9246 /* NetworkVolumesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8772BD207B6000F9246 /* NetworkVolumesView.swift */; };
+		B042F8992BD207B6000F9246 /* NearbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8782BD207B6000F9246 /* NearbyView.swift */; };
+		B042F89A2BD207B6000F9246 /* SMSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8792BD207B6000F9246 /* SMSView.swift */; };
+		B042F89B2BD207B6000F9246 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F87A2BD207B6000F9246 /* CameraView.swift */; };
+		B042F89C2BD207B6000F9246 /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F87B2BD207B6000F9246 /* BluetoothView.swift */; };
+		B042F89D2BD207B6000F9246 /* MediaAppleMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F87C2BD207B6000F9246 /* MediaAppleMusicView.swift */; };
+		B042F89E2BD207B6000F9246 /* AppleTVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F87D2BD207B6000F9246 /* AppleTVView.swift */; };
+		B042F89F2BD207B6000F9246 /* PermissionListPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F87E2BD207B6000F9246 /* PermissionListPopup.swift */; };
+		B042F8A02BD207B6000F9246 /* FileManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F87F2BD207B6000F9246 /* FileManagerView.swift */; };
+		B042F8A12BD207B6000F9246 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8802BD207B6000F9246 /* NotificationsView.swift */; };
+		B042F8A22BD207B6000F9246 /* FaceIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8812BD207B6000F9246 /* FaceIDView.swift */; };
+		B042F8A32BD207B6000F9246 /* GameKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B042F8832BD207B6000F9246 /* GameKitView.swift */; };
+		B042F8A92BD20AC0000F9246 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8A52BD208CF000F9246 /* StoreKit.framework */; };
+		B042F8B22BD20E1B000F9246 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8B02BD20E06000F9246 /* HomeKit.framework */; platformFilter = ios; };
+		B042F8B42BD20E1D000F9246 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8AE2BD20DFE000F9246 /* CoreNFC.framework */; platformFilter = ios; };
+		B042F8C42BD20ECB000F9246 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8B82BD20E5F000F9246 /* CFNetwork.framework */; };
+		B042F8C62BD20ECD000F9246 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8C22BD20EC5000F9246 /* CoreServices.framework */; };
+		B042F8C82BD20ECF000F9246 /* CoreWLAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8B62BD20E56000F9246 /* CoreWLAN.framework */; platformFilters = (macos, ); };
+		B042F8CC2BD20ED2000F9246 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8BC2BD20E70000F9246 /* NetworkExtension.framework */; };
+		B042F8D02BD20ED6000F9246 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8C02BD20E8F000F9246 /* WatchConnectivity.framework */; platformFilter = ios; };
+		B042F8EC2BD2108F000F9246 /* DataDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8D22BD20EF0000F9246 /* DataDetection.framework */; };
+		B042F8EE2BD21091000F9246 /* FileProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8D42BD20F00000F9246 /* FileProvider.framework */; };
+		B042F8F02BD21094000F9246 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8D62BD20F37000F9246 /* LocalAuthentication.framework */; };
+		B042F8F22BD21096000F9246 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8D82BD20F4C000F9246 /* ManagedSettings.framework */; };
+		B042F8F42BD21097000F9246 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8DA2BD20F65000F9246 /* MediaPlayer.framework */; };
+		B042F8F82BD2109A000F9246 /* NearbyInteraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8DE2BD20F9A000F9246 /* NearbyInteraction.framework */; };
+		B042F8FA2BD2109C000F9246 /* NetFS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8E02BD20FCA000F9246 /* NetFS.framework */; platformFilters = (macos, ); };
+		B042F8FC2BD2109E000F9246 /* ScreenCaptureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8E22BD20FEE000F9246 /* ScreenCaptureKit.framework */; platformFilters = (macos, ); };
+		B042F9002BD210A1000F9246 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8E42BD21005000F9246 /* ServiceManagement.framework */; platformFilters = (macos, ); };
+		B042F9022BD210A2000F9246 /* SharedWithYouCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8E62BD21023000F9246 /* SharedWithYouCore.framework */; };
+		B042F9042BD210A5000F9246 /* vmnet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8EA2BD2108C000F9246 /* vmnet.framework */; platformFilters = (macos, ); };
+		B050F4392BD21B0B002E52AC /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8DC2BD20F8D000F9246 /* MultipeerConnectivity.framework */; };
+		B050F43A2BD21B12002E52AC /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042F8BA2BD20E68000F9246 /* Network.framework */; };
+		B0613AD72BD429430012604C /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0613AD62BD429430012604C /* Snackbar.swift */; };
+		B0A999312BE0ACA6009FB846 /* NetworkDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A999302BE0ACA6009FB846 /* NetworkDetailsView.swift */; };
+		B0ADB6DC2BD5B694004782FE /* AHAP in Resources */ = {isa = PBXBuildFile; fileRef = B0ADB6DB2BD5B694004782FE /* AHAP */; };
+		B0AE52C32BD9973800C907E9 /* GoogleCast.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E1C16D2BD4042000F117EA /* GoogleCast.xcframework */; };
+		B0AE52C42BD9973800C907E9 /* GoogleCast.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0E1C16D2BD4042000F117EA /* GoogleCast.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B0C457AC2C476D5C000F1503 /* WhatsappView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C457AB2C476D5C000F1503 /* WhatsappView.swift */; };
+		B0CB6A3F2BD4D1A400C5B67C /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CB6A3E2BD4D1A400C5B67C /* HapticFeedback.swift */; };
+		B0F6629A2BDC467000414D53 /* fa-brands-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0F662992BDC467000414D53 /* fa-brands-400.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B042F8452BD20558000F9246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B042F8292BD20557000F9246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B042F8302BD20557000F9246;
+			remoteInfo = AllPermissionsImpl;
+		};
+		B042F84F2BD20558000F9246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B042F8292BD20557000F9246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B042F8302BD20557000F9246;
+			remoteInfo = AllPermissionsImpl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0AE52C52BD9973800C907E9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B0AE52C42BD9973800C907E9 /* GoogleCast.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B040EA952BD218A30038264D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B042F8312BD20557000F9246 /* AllPermissionsImpl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllPermissionsImpl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B042F8342BD20557000F9246 /* AllPermissionsImplApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPermissionsImplApp.swift; sourceTree = "<group>"; };
+		B042F8362BD20557000F9246 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B042F83A2BD20558000F9246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B042F83E2BD20558000F9246 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B042F8442BD20558000F9246 /* AllPermissionsImplTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllPermissionsImplTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B042F8482BD20558000F9246 /* AllPermissionsImplTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPermissionsImplTests.swift; sourceTree = "<group>"; };
+		B042F84E2BD20558000F9246 /* AllPermissionsImplUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllPermissionsImplUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B042F8522BD20558000F9246 /* AllPermissionsImplUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPermissionsImplUITests.swift; sourceTree = "<group>"; };
+		B042F8542BD20558000F9246 /* AllPermissionsImplUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPermissionsImplUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B042F8612BD206B3000F9246 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B042F8632BD207B5000F9246 /* SpeechView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechView.swift; sourceTree = "<group>"; };
+		B042F8642BD207B5000F9246 /* FocusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		B042F8652BD207B5000F9246 /* PhotosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		B042F8662BD207B5000F9246 /* SiriView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiriView.swift; sourceTree = "<group>"; };
+		B042F8682BD207B5000F9246 /* NFCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFCView.swift; sourceTree = "<group>"; };
+		B042F8692BD207B5000F9246 /* LocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		B042F86A2BD207B5000F9246 /* PasteAndFillOTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasteAndFillOTP.swift; sourceTree = "<group>"; };
+		B042F86B2BD207B5000F9246 /* MicrophoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophoneView.swift; sourceTree = "<group>"; };
+		B042F86C2BD207B5000F9246 /* HealthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		B042F86D2BD207B5000F9246 /* ContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		B042F86E2BD207B5000F9246 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		B042F86F2BD207B5000F9246 /* VoIPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoIPView.swift; sourceTree = "<group>"; };
+		B042F8702BD207B5000F9246 /* MirrorScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirrorScreen.swift; sourceTree = "<group>"; };
+		B042F8712BD207B5000F9246 /* LocalNetworkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNetworkView.swift; sourceTree = "<group>"; };
+		B042F8722BD207B5000F9246 /* FileTransferView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTransferView.swift; sourceTree = "<group>"; };
+		B042F8732BD207B5000F9246 /* RemindersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		B042F8742BD207B5000F9246 /* HomeKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeKitView.swift; sourceTree = "<group>"; };
+		B042F8752BD207B5000F9246 /* SensorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorView.swift; sourceTree = "<group>"; };
+		B042F8762BD207B5000F9246 /* ATTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATTView.swift; sourceTree = "<group>"; };
+		B042F8772BD207B6000F9246 /* NetworkVolumesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkVolumesView.swift; sourceTree = "<group>"; };
+		B042F8782BD207B6000F9246 /* NearbyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyView.swift; sourceTree = "<group>"; };
+		B042F8792BD207B6000F9246 /* SMSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSView.swift; sourceTree = "<group>"; };
+		B042F87A2BD207B6000F9246 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B042F87B2BD207B6000F9246 /* BluetoothView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
+		B042F87C2BD207B6000F9246 /* MediaAppleMusicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaAppleMusicView.swift; sourceTree = "<group>"; };
+		B042F87D2BD207B6000F9246 /* AppleTVView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleTVView.swift; sourceTree = "<group>"; };
+		B042F87E2BD207B6000F9246 /* PermissionListPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionListPopup.swift; sourceTree = "<group>"; };
+		B042F87F2BD207B6000F9246 /* FileManagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerView.swift; sourceTree = "<group>"; };
+		B042F8802BD207B6000F9246 /* NotificationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		B042F8812BD207B6000F9246 /* FaceIDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceIDView.swift; sourceTree = "<group>"; };
+		B042F8832BD207B6000F9246 /* GameKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameKitView.swift; sourceTree = "<group>"; };
+		B042F8A52BD208CF000F9246 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B042F8AE2BD20DFE000F9246 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/CoreNFC.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8B02BD20E06000F9246 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/HomeKit.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8B62BD20E56000F9246 /* CoreWLAN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreWLAN.framework; path = System/Library/Frameworks/CoreWLAN.framework; sourceTree = SDKROOT; };
+		B042F8B82BD20E5F000F9246 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8BA2BD20E68000F9246 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/Network.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8BC2BD20E70000F9246 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/NetworkExtension.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8BE2BD20E76000F9246 /* ThreadNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ThreadNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/ThreadNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8C02BD20E8F000F9246 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8C22BD20EC5000F9246 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8D22BD20EF0000F9246 /* DataDetection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DataDetection.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/DataDetection.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8D42BD20F00000F9246 /* FileProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileProvider.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/FileProvider.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8D62BD20F37000F9246 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8D82BD20F4C000F9246 /* ManagedSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettings.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/ManagedSettings.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8DA2BD20F65000F9246 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8DC2BD20F8D000F9246 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8DE2BD20F9A000F9246 /* NearbyInteraction.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NearbyInteraction.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/NearbyInteraction.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8E02BD20FCA000F9246 /* NetFS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetFS.framework; path = System/Library/Frameworks/NetFS.framework; sourceTree = SDKROOT; };
+		B042F8E22BD20FEE000F9246 /* ScreenCaptureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenCaptureKit.framework; path = System/Library/Frameworks/ScreenCaptureKit.framework; sourceTree = SDKROOT; };
+		B042F8E42BD21005000F9246 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		B042F8E62BD21023000F9246 /* SharedWithYouCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedWithYouCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/SharedWithYouCore.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8E82BD2105D000F9246 /* SensitiveContentAnalysis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensitiveContentAnalysis.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/SensitiveContentAnalysis.framework; sourceTree = DEVELOPER_DIR; };
+		B042F8EA2BD2108C000F9246 /* vmnet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vmnet.framework; path = System/Library/Frameworks/vmnet.framework; sourceTree = SDKROOT; };
+		B0613AD62BD429430012604C /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
+		B091F0492BD4167F001507C6 /* AllPermissionsImpl.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = AllPermissionsImpl.entitlements; sourceTree = "<group>"; };
+		B0A999302BE0ACA6009FB846 /* NetworkDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDetailsView.swift; sourceTree = "<group>"; };
+		B0ADB6DB2BD5B694004782FE /* AHAP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AHAP; sourceTree = "<group>"; };
+		B0C457AB2C476D5C000F1503 /* WhatsappView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappView.swift; sourceTree = "<group>"; };
+		B0CB6A3E2BD4D1A400C5B67C /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		B0E1C16D2BD4042000F117EA /* GoogleCast.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleCast.xcframework; sourceTree = "<group>"; };
+		B0F662992BDC467000414D53 /* fa-brands-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-brands-400.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B042F82E2BD20557000F9246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B042F8F82BD2109A000F9246 /* NearbyInteraction.framework in Frameworks */,
+				B042F8C42BD20ECB000F9246 /* CFNetwork.framework in Frameworks */,
+				B042F8FA2BD2109C000F9246 /* NetFS.framework in Frameworks */,
+				B01BA4C12C5F6D1800DD1821 /* CocoaAsyncSocket in Frameworks */,
+				B042F8A92BD20AC0000F9246 /* StoreKit.framework in Frameworks */,
+				B042F9042BD210A5000F9246 /* vmnet.framework in Frameworks */,
+				B042F8B42BD20E1D000F9246 /* CoreNFC.framework in Frameworks */,
+				B042F8F02BD21094000F9246 /* LocalAuthentication.framework in Frameworks */,
+				B042F9022BD210A2000F9246 /* SharedWithYouCore.framework in Frameworks */,
+				B042F8D02BD20ED6000F9246 /* WatchConnectivity.framework in Frameworks */,
+				B042F8FC2BD2109E000F9246 /* ScreenCaptureKit.framework in Frameworks */,
+				B042F8C62BD20ECD000F9246 /* CoreServices.framework in Frameworks */,
+				B042F8C82BD20ECF000F9246 /* CoreWLAN.framework in Frameworks */,
+				B042F8CC2BD20ED2000F9246 /* NetworkExtension.framework in Frameworks */,
+				B042F8B22BD20E1B000F9246 /* HomeKit.framework in Frameworks */,
+				B042F8EC2BD2108F000F9246 /* DataDetection.framework in Frameworks */,
+				B0AE52C32BD9973800C907E9 /* GoogleCast.xcframework in Frameworks */,
+				B050F4392BD21B0B002E52AC /* MultipeerConnectivity.framework in Frameworks */,
+				B042F8F22BD21096000F9246 /* ManagedSettings.framework in Frameworks */,
+				B042F8EE2BD21091000F9246 /* FileProvider.framework in Frameworks */,
+				B050F43A2BD21B12002E52AC /* Network.framework in Frameworks */,
+				B042F9002BD210A1000F9246 /* ServiceManagement.framework in Frameworks */,
+				B042F8F42BD21097000F9246 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B042F8412BD20558000F9246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B042F84B2BD20558000F9246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B042F8282BD20557000F9246 = {
+			isa = PBXGroup;
+			children = (
+				B042F8332BD20557000F9246 /* AllPermissionsImpl */,
+				B042F8472BD20558000F9246 /* AllPermissionsImplTests */,
+				B042F8512BD20558000F9246 /* AllPermissionsImplUITests */,
+				B042F8322BD20557000F9246 /* Products */,
+				B042F8A42BD208CF000F9246 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B042F8322BD20557000F9246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B042F8312BD20557000F9246 /* AllPermissionsImpl.app */,
+				B042F8442BD20558000F9246 /* AllPermissionsImplTests.xctest */,
+				B042F84E2BD20558000F9246 /* AllPermissionsImplUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B042F8332BD20557000F9246 /* AllPermissionsImpl */ = {
+			isa = PBXGroup;
+			children = (
+				B0F662982BDC464C00414D53 /* fonts */,
+				B0ADB6DB2BD5B694004782FE /* AHAP */,
+				B091F0492BD4167F001507C6 /* AllPermissionsImpl.entitlements */,
+				B040EA952BD218A30038264D /* Info.plist */,
+				B042F8342BD20557000F9246 /* AllPermissionsImplApp.swift */,
+				B042F8612BD206B3000F9246 /* Models.swift */,
+				B042F8362BD20557000F9246 /* ContentView.swift */,
+				B042F87D2BD207B6000F9246 /* AppleTVView.swift */,
+				B042F8762BD207B5000F9246 /* ATTView.swift */,
+				B042F87B2BD207B6000F9246 /* BluetoothView.swift */,
+				B042F86E2BD207B5000F9246 /* CalendarView.swift */,
+				B042F87A2BD207B6000F9246 /* CameraView.swift */,
+				B042F86D2BD207B5000F9246 /* ContactView.swift */,
+				B042F8812BD207B6000F9246 /* FaceIDView.swift */,
+				B042F87F2BD207B6000F9246 /* FileManagerView.swift */,
+				B042F8722BD207B5000F9246 /* FileTransferView.swift */,
+				B042F8642BD207B5000F9246 /* FocusView.swift */,
+				B042F8832BD207B6000F9246 /* GameKitView.swift */,
+				B0CB6A3E2BD4D1A400C5B67C /* HapticFeedback.swift */,
+				B042F86C2BD207B5000F9246 /* HealthView.swift */,
+				B042F8742BD207B5000F9246 /* HomeKitView.swift */,
+				B042F8712BD207B5000F9246 /* LocalNetworkView.swift */,
+				B042F8692BD207B5000F9246 /* LocationView.swift */,
+				B042F87C2BD207B6000F9246 /* MediaAppleMusicView.swift */,
+				B042F86B2BD207B5000F9246 /* MicrophoneView.swift */,
+				B042F8702BD207B5000F9246 /* MirrorScreen.swift */,
+				B042F8782BD207B6000F9246 /* NearbyView.swift */,
+				B0A999302BE0ACA6009FB846 /* NetworkDetailsView.swift */,
+				B042F8772BD207B6000F9246 /* NetworkVolumesView.swift */,
+				B042F8682BD207B5000F9246 /* NFCView.swift */,
+				B042F8802BD207B6000F9246 /* NotificationsView.swift */,
+				B042F86A2BD207B5000F9246 /* PasteAndFillOTP.swift */,
+				B042F87E2BD207B6000F9246 /* PermissionListPopup.swift */,
+				B042F8652BD207B5000F9246 /* PhotosView.swift */,
+				B042F8732BD207B5000F9246 /* RemindersView.swift */,
+				B042F8752BD207B5000F9246 /* SensorView.swift */,
+				B042F8662BD207B5000F9246 /* SiriView.swift */,
+				B042F8792BD207B6000F9246 /* SMSView.swift */,
+				B0613AD62BD429430012604C /* Snackbar.swift */,
+				B042F8632BD207B5000F9246 /* SpeechView.swift */,
+				B042F86F2BD207B5000F9246 /* VoIPView.swift */,
+				B0C457AB2C476D5C000F1503 /* WhatsappView.swift */,
+				B042F83A2BD20558000F9246 /* Assets.xcassets */,
+				B042F83D2BD20558000F9246 /* Preview Content */,
+			);
+			path = AllPermissionsImpl;
+			sourceTree = "<group>";
+		};
+		B042F83D2BD20558000F9246 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B042F83E2BD20558000F9246 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B042F8472BD20558000F9246 /* AllPermissionsImplTests */ = {
+			isa = PBXGroup;
+			children = (
+				B042F8482BD20558000F9246 /* AllPermissionsImplTests.swift */,
+			);
+			path = AllPermissionsImplTests;
+			sourceTree = "<group>";
+		};
+		B042F8512BD20558000F9246 /* AllPermissionsImplUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B042F8522BD20558000F9246 /* AllPermissionsImplUITests.swift */,
+				B042F8542BD20558000F9246 /* AllPermissionsImplUITestsLaunchTests.swift */,
+			);
+			path = AllPermissionsImplUITests;
+			sourceTree = "<group>";
+		};
+		B042F8A42BD208CF000F9246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B042F8EA2BD2108C000F9246 /* vmnet.framework */,
+				B042F8E82BD2105D000F9246 /* SensitiveContentAnalysis.framework */,
+				B042F8E62BD21023000F9246 /* SharedWithYouCore.framework */,
+				B042F8E42BD21005000F9246 /* ServiceManagement.framework */,
+				B042F8E22BD20FEE000F9246 /* ScreenCaptureKit.framework */,
+				B042F8E02BD20FCA000F9246 /* NetFS.framework */,
+				B042F8DE2BD20F9A000F9246 /* NearbyInteraction.framework */,
+				B042F8DC2BD20F8D000F9246 /* MultipeerConnectivity.framework */,
+				B042F8DA2BD20F65000F9246 /* MediaPlayer.framework */,
+				B042F8D82BD20F4C000F9246 /* ManagedSettings.framework */,
+				B042F8D62BD20F37000F9246 /* LocalAuthentication.framework */,
+				B042F8D42BD20F00000F9246 /* FileProvider.framework */,
+				B042F8D22BD20EF0000F9246 /* DataDetection.framework */,
+				B042F8C22BD20EC5000F9246 /* CoreServices.framework */,
+				B042F8C02BD20E8F000F9246 /* WatchConnectivity.framework */,
+				B042F8BE2BD20E76000F9246 /* ThreadNetwork.framework */,
+				B042F8BC2BD20E70000F9246 /* NetworkExtension.framework */,
+				B042F8BA2BD20E68000F9246 /* Network.framework */,
+				B042F8B82BD20E5F000F9246 /* CFNetwork.framework */,
+				B042F8B62BD20E56000F9246 /* CoreWLAN.framework */,
+				B042F8B02BD20E06000F9246 /* HomeKit.framework */,
+				B0E1C16D2BD4042000F117EA /* GoogleCast.xcframework */,
+				B042F8AE2BD20DFE000F9246 /* CoreNFC.framework */,
+				B042F8A52BD208CF000F9246 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0F662982BDC464C00414D53 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B0F662992BDC467000414D53 /* fa-brands-400.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B042F8302BD20557000F9246 /* AllPermissionsImpl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B042F8582BD20558000F9246 /* Build configuration list for PBXNativeTarget "AllPermissionsImpl" */;
+			buildPhases = (
+				B042F82D2BD20557000F9246 /* Sources */,
+				B042F82E2BD20557000F9246 /* Frameworks */,
+				B042F82F2BD20557000F9246 /* Resources */,
+				B0AE52C52BD9973800C907E9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllPermissionsImpl;
+			packageProductDependencies = (
+				B01BA4C02C5F6D1800DD1821 /* CocoaAsyncSocket */,
+			);
+			productName = AllPermissionsImpl;
+			productReference = B042F8312BD20557000F9246 /* AllPermissionsImpl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B042F8432BD20558000F9246 /* AllPermissionsImplTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B042F85B2BD20558000F9246 /* Build configuration list for PBXNativeTarget "AllPermissionsImplTests" */;
+			buildPhases = (
+				B042F8402BD20558000F9246 /* Sources */,
+				B042F8412BD20558000F9246 /* Frameworks */,
+				B042F8422BD20558000F9246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B042F8462BD20558000F9246 /* PBXTargetDependency */,
+			);
+			name = AllPermissionsImplTests;
+			productName = AllPermissionsImplTests;
+			productReference = B042F8442BD20558000F9246 /* AllPermissionsImplTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B042F84D2BD20558000F9246 /* AllPermissionsImplUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B042F85E2BD20558000F9246 /* Build configuration list for PBXNativeTarget "AllPermissionsImplUITests" */;
+			buildPhases = (
+				B042F84A2BD20558000F9246 /* Sources */,
+				B042F84B2BD20558000F9246 /* Frameworks */,
+				B042F84C2BD20558000F9246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B042F8502BD20558000F9246 /* PBXTargetDependency */,
+			);
+			name = AllPermissionsImplUITests;
+			productName = AllPermissionsImplUITests;
+			productReference = B042F84E2BD20558000F9246 /* AllPermissionsImplUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B042F8292BD20557000F9246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B042F8302BD20557000F9246 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B042F8432BD20558000F9246 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B042F8302BD20557000F9246;
+					};
+					B042F84D2BD20558000F9246 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B042F8302BD20557000F9246;
+					};
+				};
+			};
+			buildConfigurationList = B042F82C2BD20557000F9246 /* Build configuration list for PBXProject "AllPermissionsImpl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B042F8282BD20557000F9246;
+			packageReferences = (
+				B01BA4BF2C5F6D1800DD1821 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
+			);
+			productRefGroup = B042F8322BD20557000F9246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B042F8302BD20557000F9246 /* AllPermissionsImpl */,
+				B042F8432BD20558000F9246 /* AllPermissionsImplTests */,
+				B042F84D2BD20558000F9246 /* AllPermissionsImplUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B042F82F2BD20557000F9246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F6629A2BDC467000414D53 /* fa-brands-400.ttf in Resources */,
+				B0ADB6DC2BD5B694004782FE /* AHAP in Resources */,
+				B042F83F2BD20558000F9246 /* Preview Assets.xcassets in Resources */,
+				B042F83B2BD20558000F9246 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B042F8422BD20558000F9246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B042F84C2BD20558000F9246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B042F82D2BD20557000F9246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B042F8952BD207B6000F9246 /* HomeKitView.swift in Sources */,
+				B042F88D2BD207B6000F9246 /* HealthView.swift in Sources */,
+				B042F8372BD20557000F9246 /* ContentView.swift in Sources */,
+				B042F88C2BD207B6000F9246 /* MicrophoneView.swift in Sources */,
+				B042F8982BD207B6000F9246 /* NetworkVolumesView.swift in Sources */,
+				B0CB6A3F2BD4D1A400C5B67C /* HapticFeedback.swift in Sources */,
+				B042F8902BD207B6000F9246 /* VoIPView.swift in Sources */,
+				B0613AD72BD429430012604C /* Snackbar.swift in Sources */,
+				B042F89D2BD207B6000F9246 /* MediaAppleMusicView.swift in Sources */,
+				B042F8A12BD207B6000F9246 /* NotificationsView.swift in Sources */,
+				B042F89E2BD207B6000F9246 /* AppleTVView.swift in Sources */,
+				B0A999312BE0ACA6009FB846 /* NetworkDetailsView.swift in Sources */,
+				B042F8622BD206B3000F9246 /* Models.swift in Sources */,
+				B042F8992BD207B6000F9246 /* NearbyView.swift in Sources */,
+				B042F8972BD207B6000F9246 /* ATTView.swift in Sources */,
+				B042F88E2BD207B6000F9246 /* ContactView.swift in Sources */,
+				B042F8892BD207B6000F9246 /* NFCView.swift in Sources */,
+				B042F8962BD207B6000F9246 /* SensorView.swift in Sources */,
+				B042F8942BD207B6000F9246 /* RemindersView.swift in Sources */,
+				B042F8842BD207B6000F9246 /* SpeechView.swift in Sources */,
+				B042F8912BD207B6000F9246 /* MirrorScreen.swift in Sources */,
+				B042F89B2BD207B6000F9246 /* CameraView.swift in Sources */,
+				B042F8872BD207B6000F9246 /* SiriView.swift in Sources */,
+				B042F88F2BD207B6000F9246 /* CalendarView.swift in Sources */,
+				B042F8A32BD207B6000F9246 /* GameKitView.swift in Sources */,
+				B042F8352BD20557000F9246 /* AllPermissionsImplApp.swift in Sources */,
+				B0C457AC2C476D5C000F1503 /* WhatsappView.swift in Sources */,
+				B042F89F2BD207B6000F9246 /* PermissionListPopup.swift in Sources */,
+				B042F89A2BD207B6000F9246 /* SMSView.swift in Sources */,
+				B042F8922BD207B6000F9246 /* LocalNetworkView.swift in Sources */,
+				B042F8932BD207B6000F9246 /* FileTransferView.swift in Sources */,
+				B042F8852BD207B6000F9246 /* FocusView.swift in Sources */,
+				B042F88A2BD207B6000F9246 /* LocationView.swift in Sources */,
+				B042F88B2BD207B6000F9246 /* PasteAndFillOTP.swift in Sources */,
+				B042F8A02BD207B6000F9246 /* FileManagerView.swift in Sources */,
+				B042F89C2BD207B6000F9246 /* BluetoothView.swift in Sources */,
+				B042F8A22BD207B6000F9246 /* FaceIDView.swift in Sources */,
+				B042F8862BD207B6000F9246 /* PhotosView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B042F8402BD20558000F9246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B042F8492BD20558000F9246 /* AllPermissionsImplTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B042F84A2BD20558000F9246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B042F8532BD20558000F9246 /* AllPermissionsImplUITests.swift in Sources */,
+				B042F8552BD20558000F9246 /* AllPermissionsImplUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B042F8462BD20558000F9246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B042F8302BD20557000F9246 /* AllPermissionsImpl */;
+			targetProxy = B042F8452BD20558000F9246 /* PBXContainerItemProxy */;
+		};
+		B042F8502BD20558000F9246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B042F8302BD20557000F9246 /* AllPermissionsImpl */;
+			targetProxy = B042F84F2BD20558000F9246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B042F8562BD20558000F9246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app needs access to NFC reader.";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "This app needs access to Apple events.";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "This app needs access to Apple Music.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs access to Bluetooth always.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app needs access to Bluetooth peripherals.";
+				INFOPLIST_KEY_NSBluetoothWhileInUseUsageDescription = "This app needs access to Bluetooth while in use.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs access to calendars.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app needs access to contacts.";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "This app needs access to the documents folder.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "This app needs access to the downloads folder.";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "This app needs access to Downloads Folder.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "This app needs access to Face ID.";
+				INFOPLIST_KEY_NSFallDetectionUsageDescription = "This app needs access to fall detection.";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "This app needs access to file provider domain.";
+				INFOPLIST_KEY_NSFileProviderPresenceUsageDescription = "This app needs access to file provider presence.";
+				INFOPLIST_KEY_NSFocusStatusUsageDescription = "This app needs access to focus status.";
+				INFOPLIST_KEY_NSGKFriendListUsageDescription = "This app needs access to GameKit friend list.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app needs access to share clinical health records.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to health share.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs access to health update.";
+				INFOPLIST_KEY_NSHomeKitUsageDescription = "This app needs access to HomeKit.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app needs access to local network.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs access to location always and when in use.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app needs access to location always.";
+				INFOPLIST_KEY_NSLocationTemporaryUsageDescriptionDictionary = "This app needs access to temporary location.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app needs access to location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs access to location when in use.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs access to the microphone.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app needs access to motion.";
+				INFOPLIST_KEY_NSNearbyInteractionAllowOnceUsageDescription = "This app needs access to nearby interaction allow once.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "This app needs access to nearby interaction.";
+				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = "This app needs access to network volumes.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to add photos to the photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to the photo library.";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "This app needs access to reminders.";
+				INFOPLIST_KEY_NSRemovableVolumesUsageDescription = "This app needs access to removable volumes.";
+				INFOPLIST_KEY_NSSensorKitPrivacyPolicyURL = "This app needs access to SensorKit privacy policy URL.";
+				INFOPLIST_KEY_NSSensorKitUsageDescription = "This app needs access to SensorKit.";
+				INFOPLIST_KEY_NSSiriUsageDescription = "This app needs access to Siri.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app needs access to speech recognition.";
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_NSSystemAdministrationUsageDescription = "This app needs access to system administration.";
+				INFOPLIST_KEY_NSSystemExtensionUsageDescription = "This app needs access to system extension.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This app needs access to user tracking.";
+				INFOPLIST_KEY_NSVideoSubscriberAccountUsageDescription = "This app needs access to video subscriber account.";
+				INFOPLIST_KEY_NSVoIPUsageDescription = "This app needs access to VoIP.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B042F8572BD20558000F9246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app needs access to NFC reader.";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "This app needs access to Apple events.";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "This app needs access to Apple Music.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs access to Bluetooth always.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app needs access to Bluetooth peripherals.";
+				INFOPLIST_KEY_NSBluetoothWhileInUseUsageDescription = "This app needs access to Bluetooth while in use.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs access to calendars.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app needs access to contacts.";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "This app needs access to the documents folder.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "This app needs access to the downloads folder.";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "This app needs access to Downloads Folder.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "This app needs access to Face ID.";
+				INFOPLIST_KEY_NSFallDetectionUsageDescription = "This app needs access to fall detection.";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "This app needs access to file provider domain.";
+				INFOPLIST_KEY_NSFileProviderPresenceUsageDescription = "This app needs access to file provider presence.";
+				INFOPLIST_KEY_NSFocusStatusUsageDescription = "This app needs access to focus status.";
+				INFOPLIST_KEY_NSGKFriendListUsageDescription = "This app needs access to GameKit friend list.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app needs access to share clinical health records.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to health share.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs access to health update.";
+				INFOPLIST_KEY_NSHomeKitUsageDescription = "This app needs access to HomeKit.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app needs access to local network.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs access to location always and when in use.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app needs access to location always.";
+				INFOPLIST_KEY_NSLocationTemporaryUsageDescriptionDictionary = "This app needs access to temporary location.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app needs access to location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs access to location when in use.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs access to the microphone.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app needs access to motion.";
+				INFOPLIST_KEY_NSNearbyInteractionAllowOnceUsageDescription = "This app needs access to nearby interaction allow once.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "This app needs access to nearby interaction.";
+				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = "This app needs access to network volumes.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to add photos to the photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to the photo library.";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "This app needs access to reminders.";
+				INFOPLIST_KEY_NSRemovableVolumesUsageDescription = "This app needs access to removable volumes.";
+				INFOPLIST_KEY_NSSensorKitPrivacyPolicyURL = "This app needs access to SensorKit privacy policy URL.";
+				INFOPLIST_KEY_NSSensorKitUsageDescription = "This app needs access to SensorKit.";
+				INFOPLIST_KEY_NSSiriUsageDescription = "This app needs access to Siri.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app needs access to speech recognition.";
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_NSSystemAdministrationUsageDescription = "This app needs access to system administration.";
+				INFOPLIST_KEY_NSSystemExtensionUsageDescription = "This app needs access to system extension.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This app needs access to user tracking.";
+				INFOPLIST_KEY_NSVideoSubscriberAccountUsageDescription = "This app needs access to video subscriber account.";
+				INFOPLIST_KEY_NSVoIPUsageDescription = "This app needs access to VoIP.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B042F8592BD20558000F9246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = AllPermissionsImpl/AllPermissionsImpl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AllPermissionsImpl/Preview Content\"";
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AllPermissionsImpl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Deepak Permissions App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "This app needs access to the desktop folder.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "This app needs access to the documents folder.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllPermissionsImpl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B042F85A2BD20558000F9246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = AllPermissionsImpl/AllPermissionsImpl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AllPermissionsImpl/Preview Content\"";
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AllPermissionsImpl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Deepak Permissions App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "This app needs access to the desktop folder.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "This app needs access to the documents folder.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllPermissionsImpl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B042F85C2BD20558000F9246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllPermissionsImplTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllPermissionsImpl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AllPermissionsImpl";
+			};
+			name = Debug;
+		};
+		B042F85D2BD20558000F9246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllPermissionsImplTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllPermissionsImpl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AllPermissionsImpl";
+			};
+			name = Release;
+		};
+		B042F85F2BD20558000F9246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllPermissionsImplUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AllPermissionsImpl;
+			};
+			name = Debug;
+		};
+		B042F8602BD20558000F9246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllPermissionsImplUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AllPermissionsImpl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B042F82C2BD20557000F9246 /* Build configuration list for PBXProject "AllPermissionsImpl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B042F8562BD20558000F9246 /* Debug */,
+				B042F8572BD20558000F9246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B042F8582BD20558000F9246 /* Build configuration list for PBXNativeTarget "AllPermissionsImpl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B042F8592BD20558000F9246 /* Debug */,
+				B042F85A2BD20558000F9246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B042F85B2BD20558000F9246 /* Build configuration list for PBXNativeTarget "AllPermissionsImplTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B042F85C2BD20558000F9246 /* Debug */,
+				B042F85D2BD20558000F9246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B042F85E2BD20558000F9246 /* Build configuration list for PBXNativeTarget "AllPermissionsImplUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B042F85F2BD20558000F9246 /* Debug */,
+				B042F8602BD20558000F9246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B01BA4BF2C5F6D1800DD1821 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/robbiehanson/CocoaAsyncSocket";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.6.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B01BA4C02C5F6D1800DD1821 /* CocoaAsyncSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B01BA4BF2C5F6D1800DD1821 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
+			productName = CocoaAsyncSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B042F8292BD20557000F9246 /* Project object */;
+}

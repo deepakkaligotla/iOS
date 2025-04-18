@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22757" systemVersion="23E224" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="UICategory" representedClassName="UICategory" syncable="YES">
+        <attribute name="name" attributeType="String"/>
+        <relationship name="component" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UIComponent" inverseName="category" inverseEntity="UIComponent"/>
+    </entity>
+    <entity name="UIComponent" representedClassName="UIComponent" syncable="YES">
+        <attribute name="name" attributeType="String"/>
+        <attribute name="vcIdentifier" attributeType="String" valueTransformerName="NSSecureUnarchiveFromData" customClassName="UIViewController"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UICategory" inverseName="component" inverseEntity="UICategory"/>
+        <fetchedProperty name="fetchCategoryWise" optional="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="UIComponent"/>
+        </fetchedProperty>
+    </entity>
+</model>
