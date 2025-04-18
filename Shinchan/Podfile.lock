@@ -1,0 +1,16 @@
+PODS:
+  - Brightcove-Player-Core/XCFramework (6.12.0)
+
+DEPENDENCIES:
+  - Brightcove-Player-Core/XCFramework
+
+SPEC REPOS:
+  https://github.com/brightcove/BrightcoveSpecs.git:
+    - Brightcove-Player-Core
+
+SPEC CHECKSUMS:
+  Brightcove-Player-Core: d8f3655462401f1989f259648f41b50aef3578c3
+
+PODFILE CHECKSUM: 54908b987820c801484633170786010cb7228c99
+
+COCOAPODS: 1.12.0

@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4624B458C750F047990EEB40 /* Pods_ShinchanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845F17E79B3EDE7D54D76B93 /* Pods_ShinchanTests.framework */; };
+		6D7DB7CA3AF9C8E21F6A2130 /* Pods_Shinchan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9A88A5EB0A4D91A5142967 /* Pods_Shinchan.framework */; };
+		7E29E6737749366991998BF2 /* Pods_Shinchan_ShinchanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A8609479298D8F3149E172 /* Pods_Shinchan_ShinchanUITests.framework */; };
+		D101337729D1ED76008F0837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D101337629D1ED76008F0837 /* AppDelegate.swift */; };
+		D101337929D1ED76008F0837 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D101337829D1ED76008F0837 /* SceneDelegate.swift */; };
+		D101337B29D1ED76008F0837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D101337A29D1ED76008F0837 /* ViewController.swift */; };
+		D101337E29D1ED76008F0837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D101337C29D1ED76008F0837 /* Main.storyboard */; };
+		D101338129D1ED76008F0837 /* Shinchan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D101337F29D1ED76008F0837 /* Shinchan.xcdatamodeld */; };
+		D101338329D1ED77008F0837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D101338229D1ED77008F0837 /* Assets.xcassets */; };
+		D101338629D1ED77008F0837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D101338429D1ED77008F0837 /* LaunchScreen.storyboard */; };
+		D101339129D1ED77008F0837 /* ShinchanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D101339029D1ED77008F0837 /* ShinchanTests.swift */; };
+		D101339B29D1ED77008F0837 /* ShinchanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D101339A29D1ED77008F0837 /* ShinchanUITests.swift */; };
+		D101339D29D1ED77008F0837 /* ShinchanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D101339C29D1ED77008F0837 /* ShinchanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D101338D29D1ED77008F0837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D101336B29D1ED76008F0837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D101337229D1ED76008F0837;
+			remoteInfo = Shinchan;
+		};
+		D101339729D1ED77008F0837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D101336B29D1ED76008F0837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D101337229D1ED76008F0837;
+			remoteInfo = Shinchan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A6AA6E7F3A511F3D2CAF475 /* Pods-ShinchanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinchanTests.release.xcconfig"; path = "Target Support Files/Pods-ShinchanTests/Pods-ShinchanTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D9A88A5EB0A4D91A5142967 /* Pods_Shinchan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shinchan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E93B71D793CA135C74C542E /* Pods-Shinchan-ShinchanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shinchan-ShinchanUITests.debug.xcconfig"; path = "Target Support Files/Pods-Shinchan-ShinchanUITests/Pods-Shinchan-ShinchanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		845F17E79B3EDE7D54D76B93 /* Pods_ShinchanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShinchanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BD085F33C3F958E24D8766 /* Pods-Shinchan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shinchan.release.xcconfig"; path = "Target Support Files/Pods-Shinchan/Pods-Shinchan.release.xcconfig"; sourceTree = "<group>"; };
+		B24B4A8BCE592FD01C0D882D /* Pods-ShinchanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinchanTests.debug.xcconfig"; path = "Target Support Files/Pods-ShinchanTests/Pods-ShinchanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCB008C62E62485020511E53 /* Pods-Shinchan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shinchan.debug.xcconfig"; path = "Target Support Files/Pods-Shinchan/Pods-Shinchan.debug.xcconfig"; sourceTree = "<group>"; };
+		C5A8609479298D8F3149E172 /* Pods_Shinchan_ShinchanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shinchan_ShinchanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D101337329D1ED76008F0837 /* Shinchan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shinchan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D101337629D1ED76008F0837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D101337829D1ED76008F0837 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D101337A29D1ED76008F0837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D101337D29D1ED76008F0837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D101338029D1ED76008F0837 /* Shinchan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shinchan.xcdatamodel; sourceTree = "<group>"; };
+		D101338229D1ED77008F0837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D101338529D1ED77008F0837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D101338729D1ED77008F0837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D101338C29D1ED77008F0837 /* ShinchanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShinchanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D101339029D1ED77008F0837 /* ShinchanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinchanTests.swift; sourceTree = "<group>"; };
+		D101339629D1ED77008F0837 /* ShinchanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShinchanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D101339A29D1ED77008F0837 /* ShinchanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinchanUITests.swift; sourceTree = "<group>"; };
+		D101339C29D1ED77008F0837 /* ShinchanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinchanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FABC394CD3B6D510CDEA4ECF /* Pods-Shinchan-ShinchanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shinchan-ShinchanUITests.release.xcconfig"; path = "Target Support Files/Pods-Shinchan-ShinchanUITests/Pods-Shinchan-ShinchanUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D101337029D1ED76008F0837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7DB7CA3AF9C8E21F6A2130 /* Pods_Shinchan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D101338929D1ED77008F0837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4624B458C750F047990EEB40 /* Pods_ShinchanTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D101339329D1ED77008F0837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E29E6737749366991998BF2 /* Pods_Shinchan_ShinchanUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		135DA78916FD60A487988365 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCB008C62E62485020511E53 /* Pods-Shinchan.debug.xcconfig */,
+				86BD085F33C3F958E24D8766 /* Pods-Shinchan.release.xcconfig */,
+				3E93B71D793CA135C74C542E /* Pods-Shinchan-ShinchanUITests.debug.xcconfig */,
+				FABC394CD3B6D510CDEA4ECF /* Pods-Shinchan-ShinchanUITests.release.xcconfig */,
+				B24B4A8BCE592FD01C0D882D /* Pods-ShinchanTests.debug.xcconfig */,
+				2A6AA6E7F3A511F3D2CAF475 /* Pods-ShinchanTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		436444CD53EDE8BBE400421E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D9A88A5EB0A4D91A5142967 /* Pods_Shinchan.framework */,
+				C5A8609479298D8F3149E172 /* Pods_Shinchan_ShinchanUITests.framework */,
+				845F17E79B3EDE7D54D76B93 /* Pods_ShinchanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D101336A29D1ED76008F0837 = {
+			isa = PBXGroup;
+			children = (
+				D101337529D1ED76008F0837 /* Shinchan */,
+				D101338F29D1ED77008F0837 /* ShinchanTests */,
+				D101339929D1ED77008F0837 /* ShinchanUITests */,
+				D101337429D1ED76008F0837 /* Products */,
+				135DA78916FD60A487988365 /* Pods */,
+				436444CD53EDE8BBE400421E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D101337429D1ED76008F0837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D101337329D1ED76008F0837 /* Shinchan.app */,
+				D101338C29D1ED77008F0837 /* ShinchanTests.xctest */,
+				D101339629D1ED77008F0837 /* ShinchanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D101337529D1ED76008F0837 /* Shinchan */ = {
+			isa = PBXGroup;
+			children = (
+				D101337629D1ED76008F0837 /* AppDelegate.swift */,
+				D101337829D1ED76008F0837 /* SceneDelegate.swift */,
+				D101337A29D1ED76008F0837 /* ViewController.swift */,
+				D101337C29D1ED76008F0837 /* Main.storyboard */,
+				D101338229D1ED77008F0837 /* Assets.xcassets */,
+				D101338429D1ED77008F0837 /* LaunchScreen.storyboard */,
+				D101338729D1ED77008F0837 /* Info.plist */,
+				D101337F29D1ED76008F0837 /* Shinchan.xcdatamodeld */,
+			);
+			path = Shinchan;
+			sourceTree = "<group>";
+		};
+		D101338F29D1ED77008F0837 /* ShinchanTests */ = {
+			isa = PBXGroup;
+			children = (
+				D101339029D1ED77008F0837 /* ShinchanTests.swift */,
+			);
+			path = ShinchanTests;
+			sourceTree = "<group>";
+		};
+		D101339929D1ED77008F0837 /* ShinchanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D101339A29D1ED77008F0837 /* ShinchanUITests.swift */,
+				D101339C29D1ED77008F0837 /* ShinchanUITestsLaunchTests.swift */,
+			);
+			path = ShinchanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D101337229D1ED76008F0837 /* Shinchan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10133A029D1ED77008F0837 /* Build configuration list for PBXNativeTarget "Shinchan" */;
+			buildPhases = (
+				036C516B35BD869F34078409 /* [CP] Check Pods Manifest.lock */,
+				D101336F29D1ED76008F0837 /* Sources */,
+				D101337029D1ED76008F0837 /* Frameworks */,
+				D101337129D1ED76008F0837 /* Resources */,
+				E54140F1C135B3E2BC3E5DE8 /* [CP] Embed Pods Frameworks */,
+				8878FBFA5E439C199F0286BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shinchan;
+			productName = Shinchan;
+			productReference = D101337329D1ED76008F0837 /* Shinchan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D101338B29D1ED77008F0837 /* ShinchanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10133A329D1ED77008F0837 /* Build configuration list for PBXNativeTarget "ShinchanTests" */;
+			buildPhases = (
+				15863C1EE0194774BDFE7B25 /* [CP] Check Pods Manifest.lock */,
+				D101338829D1ED77008F0837 /* Sources */,
+				D101338929D1ED77008F0837 /* Frameworks */,
+				D101338A29D1ED77008F0837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D101338E29D1ED77008F0837 /* PBXTargetDependency */,
+			);
+			name = ShinchanTests;
+			productName = ShinchanTests;
+			productReference = D101338C29D1ED77008F0837 /* ShinchanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D101339529D1ED77008F0837 /* ShinchanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10133A629D1ED77008F0837 /* Build configuration list for PBXNativeTarget "ShinchanUITests" */;
+			buildPhases = (
+				E456862B36DF07861ECA84DC /* [CP] Check Pods Manifest.lock */,
+				D101339229D1ED77008F0837 /* Sources */,
+				D101339329D1ED77008F0837 /* Frameworks */,
+				D101339429D1ED77008F0837 /* Resources */,
+				5C5D1563B39749A323D9AB95 /* [CP] Embed Pods Frameworks */,
+				DC9C4EE9386D45D342516BFF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D101339829D1ED77008F0837 /* PBXTargetDependency */,
+			);
+			name = ShinchanUITests;
+			productName = ShinchanUITests;
+			productReference = D101339629D1ED77008F0837 /* ShinchanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D101336B29D1ED76008F0837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D101337229D1ED76008F0837 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D101338B29D1ED77008F0837 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D101337229D1ED76008F0837;
+					};
+					D101339529D1ED77008F0837 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D101337229D1ED76008F0837;
+					};
+				};
+			};
+			buildConfigurationList = D101336E29D1ED76008F0837 /* Build configuration list for PBXProject "Shinchan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D101336A29D1ED76008F0837;
+			productRefGroup = D101337429D1ED76008F0837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D101337229D1ED76008F0837 /* Shinchan */,
+				D101338B29D1ED77008F0837 /* ShinchanTests */,
+				D101339529D1ED77008F0837 /* ShinchanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D101337129D1ED76008F0837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D101338629D1ED77008F0837 /* LaunchScreen.storyboard in Resources */,
+				D101338329D1ED77008F0837 /* Assets.xcassets in Resources */,
+				D101337E29D1ED76008F0837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D101338A29D1ED77008F0837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D101339429D1ED77008F0837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		036C516B35BD869F34078409 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shinchan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15863C1EE0194774BDFE7B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShinchanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C5D1563B39749A323D9AB95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shinchan-ShinchanUITests/Pods-Shinchan-ShinchanUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shinchan-ShinchanUITests/Pods-Shinchan-ShinchanUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shinchan-ShinchanUITests/Pods-Shinchan-ShinchanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8878FBFA5E439C199F0286BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shinchan/Pods-Shinchan-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shinchan/Pods-Shinchan-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shinchan/Pods-Shinchan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9C4EE9386D45D342516BFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shinchan-ShinchanUITests/Pods-Shinchan-ShinchanUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shinchan-ShinchanUITests/Pods-Shinchan-ShinchanUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shinchan-ShinchanUITests/Pods-Shinchan-ShinchanUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E456862B36DF07861ECA84DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shinchan-ShinchanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E54140F1C135B3E2BC3E5DE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shinchan/Pods-Shinchan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shinchan/Pods-Shinchan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shinchan/Pods-Shinchan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D101336F29D1ED76008F0837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D101337B29D1ED76008F0837 /* ViewController.swift in Sources */,
+				D101338129D1ED76008F0837 /* Shinchan.xcdatamodeld in Sources */,
+				D101337729D1ED76008F0837 /* AppDelegate.swift in Sources */,
+				D101337929D1ED76008F0837 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D101338829D1ED77008F0837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D101339129D1ED77008F0837 /* ShinchanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D101339229D1ED77008F0837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D101339D29D1ED77008F0837 /* ShinchanUITestsLaunchTests.swift in Sources */,
+				D101339B29D1ED77008F0837 /* ShinchanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D101338E29D1ED77008F0837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D101337229D1ED76008F0837 /* Shinchan */;
+			targetProxy = D101338D29D1ED77008F0837 /* PBXContainerItemProxy */;
+		};
+		D101339829D1ED77008F0837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D101337229D1ED76008F0837 /* Shinchan */;
+			targetProxy = D101339729D1ED77008F0837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D101337C29D1ED76008F0837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D101337D29D1ED76008F0837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D101338429D1ED77008F0837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D101338529D1ED77008F0837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D101339E29D1ED77008F0837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D101339F29D1ED77008F0837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D10133A129D1ED77008F0837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB008C62E62485020511E53 /* Pods-Shinchan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shinchan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kaligotla.Shinchan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D10133A229D1ED77008F0837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BD085F33C3F958E24D8766 /* Pods-Shinchan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shinchan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kaligotla.Shinchan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D10133A429D1ED77008F0837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24B4A8BCE592FD01C0D882D /* Pods-ShinchanTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kaligotla.ShinchanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shinchan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shinchan";
+			};
+			name = Debug;
+		};
+		D10133A529D1ED77008F0837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6AA6E7F3A511F3D2CAF475 /* Pods-ShinchanTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kaligotla.ShinchanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shinchan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shinchan";
+			};
+			name = Release;
+		};
+		D10133A729D1ED77008F0837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E93B71D793CA135C74C542E /* Pods-Shinchan-ShinchanUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kaligotla.ShinchanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shinchan;
+			};
+			name = Debug;
+		};
+		D10133A829D1ED77008F0837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FABC394CD3B6D510CDEA4ECF /* Pods-Shinchan-ShinchanUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kaligotla.ShinchanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shinchan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D101336E29D1ED76008F0837 /* Build configuration list for PBXProject "Shinchan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D101339E29D1ED77008F0837 /* Debug */,
+				D101339F29D1ED77008F0837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10133A029D1ED77008F0837 /* Build configuration list for PBXNativeTarget "Shinchan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10133A129D1ED77008F0837 /* Debug */,
+				D10133A229D1ED77008F0837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10133A329D1ED77008F0837 /* Build configuration list for PBXNativeTarget "ShinchanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10133A429D1ED77008F0837 /* Debug */,
+				D10133A529D1ED77008F0837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10133A629D1ED77008F0837 /* Build configuration list for PBXNativeTarget "ShinchanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10133A729D1ED77008F0837 /* Debug */,
+				D10133A829D1ED77008F0837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D101337F29D1ED76008F0837 /* Shinchan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D101338029D1ED76008F0837 /* Shinchan.xcdatamodel */,
+			);
+			currentVersion = D101338029D1ED76008F0837 /* Shinchan.xcdatamodel */;
+			path = Shinchan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D101336B29D1ED76008F0837 /* Project object */;
+}

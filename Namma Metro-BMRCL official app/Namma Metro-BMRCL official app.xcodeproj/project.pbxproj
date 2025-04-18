@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0D107DA2C623E5B0001DB15 /* Namma_Metro_BMRCL_official_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D107D92C623E5B0001DB15 /* Namma_Metro_BMRCL_official_appApp.swift */; };
+		B0D107DC2C623E5B0001DB15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D107DB2C623E5B0001DB15 /* ContentView.swift */; };
+		B0D107DE2C623E5B0001DB15 /* MetroStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D107DD2C623E5B0001DB15 /* MetroStation.swift */; };
+		B0D107E02C623E5C0001DB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D107DF2C623E5C0001DB15 /* Assets.xcassets */; };
+		B0D107E32C623E5C0001DB15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D107E22C623E5C0001DB15 /* Preview Assets.xcassets */; };
+		B0D107ED2C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D107EC2C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appTests.swift */; };
+		B0D107F72C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D107F62C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appUITests.swift */; };
+		B0D107F92C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D107F82C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appUITestsLaunchTests.swift */; };
+		B0D108062C623FEB0001DB15 /* MetroDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D108052C623FEB0001DB15 /* MetroDataLoader.swift */; };
+		B0D108082C62416C0001DB15 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D108072C62416C0001DB15 /* MapView.swift */; };
+		B0D1080A2C6243C10001DB15 /* metro-lines-stations.geojson in Resources */ = {isa = PBXBuildFile; fileRef = B0D108092C6243C10001DB15 /* metro-lines-stations.geojson */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0D107E92C623E5C0001DB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D107CE2C623E5B0001DB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D107D52C623E5B0001DB15;
+			remoteInfo = "Namma Metro-BMRCL official app";
+		};
+		B0D107F32C623E5C0001DB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D107CE2C623E5B0001DB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D107D52C623E5B0001DB15;
+			remoteInfo = "Namma Metro-BMRCL official app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0D107D62C623E5B0001DB15 /* Namma Metro-BMRCL official app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Namma Metro-BMRCL official app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D107D92C623E5B0001DB15 /* Namma_Metro_BMRCL_official_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namma_Metro_BMRCL_official_appApp.swift; sourceTree = "<group>"; };
+		B0D107DB2C623E5B0001DB15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0D107DD2C623E5B0001DB15 /* MetroStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroStation.swift; sourceTree = "<group>"; };
+		B0D107DF2C623E5C0001DB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0D107E22C623E5C0001DB15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0D107E82C623E5C0001DB15 /* Namma Metro-BMRCL official appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Namma Metro-BMRCL official appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D107EC2C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namma_Metro_BMRCL_official_appTests.swift; sourceTree = "<group>"; };
+		B0D107F22C623E5C0001DB15 /* Namma Metro-BMRCL official appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Namma Metro-BMRCL official appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D107F62C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namma_Metro_BMRCL_official_appUITests.swift; sourceTree = "<group>"; };
+		B0D107F82C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namma_Metro_BMRCL_official_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0D108052C623FEB0001DB15 /* MetroDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroDataLoader.swift; sourceTree = "<group>"; };
+		B0D108072C62416C0001DB15 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B0D108092C6243C10001DB15 /* metro-lines-stations.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "metro-lines-stations.geojson"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0D107D32C623E5B0001DB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D107E52C623E5C0001DB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D107EF2C623E5C0001DB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0D107CD2C623E5B0001DB15 = {
+			isa = PBXGroup;
+			children = (
+				B0D107D82C623E5B0001DB15 /* Namma Metro-BMRCL official app */,
+				B0D107EB2C623E5C0001DB15 /* Namma Metro-BMRCL official appTests */,
+				B0D107F52C623E5C0001DB15 /* Namma Metro-BMRCL official appUITests */,
+				B0D107D72C623E5B0001DB15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0D107D72C623E5B0001DB15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D107D62C623E5B0001DB15 /* Namma Metro-BMRCL official app.app */,
+				B0D107E82C623E5C0001DB15 /* Namma Metro-BMRCL official appTests.xctest */,
+				B0D107F22C623E5C0001DB15 /* Namma Metro-BMRCL official appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0D107D82C623E5B0001DB15 /* Namma Metro-BMRCL official app */ = {
+			isa = PBXGroup;
+			children = (
+				B0D108092C6243C10001DB15 /* metro-lines-stations.geojson */,
+				B0D107D92C623E5B0001DB15 /* Namma_Metro_BMRCL_official_appApp.swift */,
+				B0D107DB2C623E5B0001DB15 /* ContentView.swift */,
+				B0D108072C62416C0001DB15 /* MapView.swift */,
+				B0D108052C623FEB0001DB15 /* MetroDataLoader.swift */,
+				B0D107DD2C623E5B0001DB15 /* MetroStation.swift */,
+				B0D107DF2C623E5C0001DB15 /* Assets.xcassets */,
+				B0D107E12C623E5C0001DB15 /* Preview Content */,
+			);
+			path = "Namma Metro-BMRCL official app";
+			sourceTree = "<group>";
+		};
+		B0D107E12C623E5C0001DB15 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B0D107E22C623E5C0001DB15 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0D107EB2C623E5C0001DB15 /* Namma Metro-BMRCL official appTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0D107EC2C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appTests.swift */,
+			);
+			path = "Namma Metro-BMRCL official appTests";
+			sourceTree = "<group>";
+		};
+		B0D107F52C623E5C0001DB15 /* Namma Metro-BMRCL official appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0D107F62C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appUITests.swift */,
+				B0D107F82C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appUITestsLaunchTests.swift */,
+			);
+			path = "Namma Metro-BMRCL official appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0D107D52C623E5B0001DB15 /* Namma Metro-BMRCL official app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D107FC2C623E5C0001DB15 /* Build configuration list for PBXNativeTarget "Namma Metro-BMRCL official app" */;
+			buildPhases = (
+				B0D107D22C623E5B0001DB15 /* Sources */,
+				B0D107D32C623E5B0001DB15 /* Frameworks */,
+				B0D107D42C623E5B0001DB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Namma Metro-BMRCL official app";
+			productName = "Namma Metro-BMRCL official app";
+			productReference = B0D107D62C623E5B0001DB15 /* Namma Metro-BMRCL official app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0D107E72C623E5C0001DB15 /* Namma Metro-BMRCL official appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D107FF2C623E5C0001DB15 /* Build configuration list for PBXNativeTarget "Namma Metro-BMRCL official appTests" */;
+			buildPhases = (
+				B0D107E42C623E5C0001DB15 /* Sources */,
+				B0D107E52C623E5C0001DB15 /* Frameworks */,
+				B0D107E62C623E5C0001DB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0D107EA2C623E5C0001DB15 /* PBXTargetDependency */,
+			);
+			name = "Namma Metro-BMRCL official appTests";
+			productName = "Namma Metro-BMRCL official appTests";
+			productReference = B0D107E82C623E5C0001DB15 /* Namma Metro-BMRCL official appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0D107F12C623E5C0001DB15 /* Namma Metro-BMRCL official appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D108022C623E5C0001DB15 /* Build configuration list for PBXNativeTarget "Namma Metro-BMRCL official appUITests" */;
+			buildPhases = (
+				B0D107EE2C623E5C0001DB15 /* Sources */,
+				B0D107EF2C623E5C0001DB15 /* Frameworks */,
+				B0D107F02C623E5C0001DB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0D107F42C623E5C0001DB15 /* PBXTargetDependency */,
+			);
+			name = "Namma Metro-BMRCL official appUITests";
+			productName = "Namma Metro-BMRCL official appUITests";
+			productReference = B0D107F22C623E5C0001DB15 /* Namma Metro-BMRCL official appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0D107CE2C623E5B0001DB15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B0D107D52C623E5B0001DB15 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B0D107E72C623E5C0001DB15 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B0D107D52C623E5B0001DB15;
+					};
+					B0D107F12C623E5C0001DB15 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B0D107D52C623E5B0001DB15;
+					};
+				};
+			};
+			buildConfigurationList = B0D107D12C623E5B0001DB15 /* Build configuration list for PBXProject "Namma Metro-BMRCL official app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0D107CD2C623E5B0001DB15;
+			productRefGroup = B0D107D72C623E5B0001DB15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0D107D52C623E5B0001DB15 /* Namma Metro-BMRCL official app */,
+				B0D107E72C623E5C0001DB15 /* Namma Metro-BMRCL official appTests */,
+				B0D107F12C623E5C0001DB15 /* Namma Metro-BMRCL official appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0D107D42C623E5B0001DB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D107E32C623E5C0001DB15 /* Preview Assets.xcassets in Resources */,
+				B0D107E02C623E5C0001DB15 /* Assets.xcassets in Resources */,
+				B0D1080A2C6243C10001DB15 /* metro-lines-stations.geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D107E62C623E5C0001DB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D107F02C623E5C0001DB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0D107D22C623E5B0001DB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D108062C623FEB0001DB15 /* MetroDataLoader.swift in Sources */,
+				B0D107DC2C623E5B0001DB15 /* ContentView.swift in Sources */,
+				B0D108082C62416C0001DB15 /* MapView.swift in Sources */,
+				B0D107DE2C623E5B0001DB15 /* MetroStation.swift in Sources */,
+				B0D107DA2C623E5B0001DB15 /* Namma_Metro_BMRCL_official_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D107E42C623E5C0001DB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D107ED2C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D107EE2C623E5C0001DB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D107F72C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appUITests.swift in Sources */,
+				B0D107F92C623E5C0001DB15 /* Namma_Metro_BMRCL_official_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0D107EA2C623E5C0001DB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0D107D52C623E5B0001DB15 /* Namma Metro-BMRCL official app */;
+			targetProxy = B0D107E92C623E5C0001DB15 /* PBXContainerItemProxy */;
+		};
+		B0D107F42C623E5C0001DB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0D107D52C623E5B0001DB15 /* Namma Metro-BMRCL official app */;
+			targetProxy = B0D107F32C623E5C0001DB15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B0D107FA2C623E5C0001DB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0D107FB2C623E5C0001DB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0D107FD2C623E5C0001DB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Namma Metro-BMRCL official app/Preview Content\"";
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.kaligotla.Namma-Metro-BMRCL-official-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0D107FE2C623E5C0001DB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Namma Metro-BMRCL official app/Preview Content\"";
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.kaligotla.Namma-Metro-BMRCL-official-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0D108002C623E5C0001DB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.kaligotla.Namma-Metro-BMRCL-official-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Namma Metro-BMRCL official app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Namma Metro-BMRCL official app";
+			};
+			name = Debug;
+		};
+		B0D108012C623E5C0001DB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.kaligotla.Namma-Metro-BMRCL-official-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Namma Metro-BMRCL official app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Namma Metro-BMRCL official app";
+			};
+			name = Release;
+		};
+		B0D108032C623E5C0001DB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.kaligotla.Namma-Metro-BMRCL-official-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Namma Metro-BMRCL official app";
+			};
+			name = Debug;
+		};
+		B0D108042C623E5C0001DB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.kaligotla.Namma-Metro-BMRCL-official-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Namma Metro-BMRCL official app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0D107D12C623E5B0001DB15 /* Build configuration list for PBXProject "Namma Metro-BMRCL official app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D107FA2C623E5C0001DB15 /* Debug */,
+				B0D107FB2C623E5C0001DB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D107FC2C623E5C0001DB15 /* Build configuration list for PBXNativeTarget "Namma Metro-BMRCL official app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D107FD2C623E5C0001DB15 /* Debug */,
+				B0D107FE2C623E5C0001DB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D107FF2C623E5C0001DB15 /* Build configuration list for PBXNativeTarget "Namma Metro-BMRCL official appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D108002C623E5C0001DB15 /* Debug */,
+				B0D108012C623E5C0001DB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D108022C623E5C0001DB15 /* Build configuration list for PBXNativeTarget "Namma Metro-BMRCL official appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D108032C623E5C0001DB15 /* Debug */,
+				B0D108042C623E5C0001DB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0D107CE2C623E5B0001DB15 /* Project object */;
+}

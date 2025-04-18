@@ -1,0 +1,1322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0142F7E2C6DB8CC00F95FE5 /* AccelerometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0142F7D2C6DB8CC00F95FE5 /* AccelerometerView.swift */; };
+		B0142F802C6DB8D700F95FE5 /* GyroscopeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0142F7F2C6DB8D700F95FE5 /* GyroscopeView.swift */; };
+		B024B8F32C74DE6000F24E4B /* AllSensorsWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B024B8F22C74DE6000F24E4B /* AllSensorsWatchApp.swift */; };
+		B024B8F52C74DE6000F24E4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B024B8F42C74DE6000F24E4B /* ContentView.swift */; };
+		B024B8F72C74DE6000F24E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B024B8F62C74DE6000F24E4B /* Assets.xcassets */; };
+		B024B8FA2C74DE6000F24E4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B024B8F92C74DE6000F24E4B /* Preview Assets.xcassets */; };
+		B024B9042C74DE6100F24E4B /* AllSensorsWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B024B9032C74DE6100F24E4B /* AllSensorsWatch_Watch_AppTests.swift */; };
+		B024B90E2C74DE6100F24E4B /* AllSensorsWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B024B90D2C74DE6100F24E4B /* AllSensorsWatch_Watch_AppUITests.swift */; };
+		B024B9102C74DE6100F24E4B /* AllSensorsWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B024B90F2C74DE6100F24E4B /* AllSensorsWatch_Watch_AppUITestsLaunchTests.swift */; };
+		B024B9132C74DE6100F24E4B /* AllSensorsWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B024B8F02C74DE6000F24E4B /* AllSensorsWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B024B9202C74DF5E00F24E4B /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B024B91F2C74DF5D00F24E4B /* WatchConnectivity.framework */; };
+		B024B9222C74DF6900F24E4B /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B024B9212C74DF6900F24E4B /* WatchConnectivity.framework */; };
+		B05E2C772C6DF02600CD2FA9 /* gravity1.gif in Resources */ = {isa = PBXBuildFile; fileRef = B05E2C762C6DF02600CD2FA9 /* gravity1.gif */; };
+		B0771B682C6DA1F7005C8BEE /* AllSensorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0771B672C6DA1F7005C8BEE /* AllSensorsApp.swift */; };
+		B0771B6A2C6DA1F7005C8BEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0771B692C6DA1F7005C8BEE /* ContentView.swift */; };
+		B0771B6C2C6DA1F8005C8BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0771B6B2C6DA1F8005C8BEE /* Assets.xcassets */; };
+		B0771B6F2C6DA1F8005C8BEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0771B6E2C6DA1F8005C8BEE /* Preview Assets.xcassets */; };
+		B0771B792C6DA1F9005C8BEE /* AllSensorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0771B782C6DA1F9005C8BEE /* AllSensorsTests.swift */; };
+		B0771B832C6DA1F9005C8BEE /* AllSensorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0771B822C6DA1F9005C8BEE /* AllSensorsUITests.swift */; };
+		B0771B852C6DA1F9005C8BEE /* AllSensorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0771B842C6DA1F9005C8BEE /* AllSensorsUITestsLaunchTests.swift */; };
+		B0771B922C6DA25C005C8BEE /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0771B912C6DA25C005C8BEE /* SideMenuView.swift */; };
+		B0771B952C6DB1F3005C8BEE /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = B0771B942C6DB1F3005C8BEE /* SwiftyGif */; };
+		B0771B972C6DB338005C8BEE /* GifImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0771B962C6DB338005C8BEE /* GifImageView.swift */; };
+		B0771B9B2C6DB40C005C8BEE /* gyroscope.gif in Resources */ = {isa = PBXBuildFile; fileRef = B0771B9A2C6DB40C005C8BEE /* gyroscope.gif */; };
+		B0771B9D2C6DB5B4005C8BEE /* accelerometer.gif in Resources */ = {isa = PBXBuildFile; fileRef = B0771B9C2C6DB5B4005C8BEE /* accelerometer.gif */; };
+		B0854B592C78C2E600629139 /* OdometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0854B582C78C2E600629139 /* OdometerView.swift */; };
+		B09BB4192C6E6D6C003BC227 /* attitude.png in Resources */ = {isa = PBXBuildFile; fileRef = B09BB4182C6E6D6C003BC227 /* attitude.png */; };
+		B0CF5B3C2C712C1700D666EE /* altimeter.png in Resources */ = {isa = PBXBuildFile; fileRef = B0CF5B3B2C712C1700D666EE /* altimeter.png */; };
+		B0CF5B3E2C71369000D666EE /* ambient_light.png in Resources */ = {isa = PBXBuildFile; fileRef = B0CF5B3D2C71369000D666EE /* ambient_light.png */; };
+		B0D99EFE2C6F255A00CA2336 /* AttitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D99EFD2C6F255900CA2336 /* AttitudeView.swift */; };
+		B0D99F022C6F2D7A00CA2336 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D99F012C6F2D7A00CA2336 /* DataModels.swift */; };
+		B0FF4F482C6E78770015D846 /* GravityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F472C6E78770015D846 /* GravityView.swift */; };
+		B0FF4F4C2C6E78880015D846 /* FallDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F4B2C6E78880015D846 /* FallDetectionView.swift */; };
+		B0FF4F4E2C6E789E0015D846 /* HeadphoneMotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F4D2C6E789E0015D846 /* HeadphoneMotionView.swift */; };
+		B0FF4F502C6E78AF0015D846 /* MovementDisorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F4F2C6E78AF0015D846 /* MovementDisorderView.swift */; };
+		B0FF4F522C6E78BF0015D846 /* SpeedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F512C6E78BF0015D846 /* SpeedometerView.swift */; };
+		B0FF4F542C6E78C60015D846 /* StepCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F532C6E78C60015D846 /* StepCounterView.swift */; };
+		B0FF4F562C6E78CE0015D846 /* PedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F552C6E78CE0015D846 /* PedometerView.swift */; };
+		B0FF4F582C6E78D60015D846 /* MotionActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F572C6E78D60015D846 /* MotionActivityView.swift */; };
+		B0FF4F5A2C6E78F90015D846 /* AltimeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F592C6E78F90015D846 /* AltimeterView.swift */; };
+		B0FF4F5C2C6E79030015D846 /* AmbientLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F5B2C6E79030015D846 /* AmbientLightView.swift */; };
+		B0FF4F5E2C6E790A0015D846 /* AmbientPressureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F5D2C6E790A0015D846 /* AmbientPressureView.swift */; };
+		B0FF4F602C6E79110015D846 /* MagnetometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F5F2C6E79110015D846 /* MagnetometerView.swift */; };
+		B0FF4F622C6E79180015D846 /* BarometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F612C6E79180015D846 /* BarometerView.swift */; };
+		B0FF4F642C6E79210015D846 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F632C6E79210015D846 /* LocationView.swift */; };
+		B0FF4F662C6E792A0015D846 /* VisitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F652C6E792A0015D846 /* VisitsView.swift */; };
+		B0FF4F682C6E79310015D846 /* HeartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F672C6E79310015D846 /* HeartRateView.swift */; };
+		B0FF4F6A2C6E79390015D846 /* WristMotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F692C6E79390015D846 /* WristMotionView.swift */; };
+		B0FF4F6C2C6E79480015D846 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F6B2C6E79480015D846 /* DeviceView.swift */; };
+		B0FF4F6E2C6E79500015D846 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F6D2C6E79500015D846 /* MessageView.swift */; };
+		B0FF4F702C6E79570015D846 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F6F2C6E79570015D846 /* PhoneView.swift */; };
+		B0FF4F722C6E795E0015D846 /* KeyboardMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F712C6E795E0015D846 /* KeyboardMetricsView.swift */; };
+		B0FF4F742C6E79660015D846 /* SiriSpeechMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F732C6E79660015D846 /* SiriSpeechMetricsView.swift */; };
+		B0FF4F762C6E796D0015D846 /* TelephonySpeechMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F752C6E796D0015D846 /* TelephonySpeechMetricsView.swift */; };
+		B0FF4F782C6E79820015D846 /* MediaEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F772C6E79820015D846 /* MediaEventsView.swift */; };
+		B0FF4F7C2C6E79950015D846 /* AltitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F7B2C6E79950015D846 /* AltitudeView.swift */; };
+		B0FF4F802C6E79A40015D846 /* OrientationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF4F7F2C6E79A40015D846 /* OrientationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B024B9002C74DE6100F24E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0771B5C2C6DA1F7005C8BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B024B8EF2C74DE6000F24E4B;
+			remoteInfo = "AllSensorsWatch Watch App";
+		};
+		B024B90A2C74DE6100F24E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0771B5C2C6DA1F7005C8BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B024B8EF2C74DE6000F24E4B;
+			remoteInfo = "AllSensorsWatch Watch App";
+		};
+		B024B9112C74DE6100F24E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0771B5C2C6DA1F7005C8BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B024B8EF2C74DE6000F24E4B;
+			remoteInfo = "AllSensorsWatch Watch App";
+		};
+		B0771B752C6DA1F9005C8BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0771B5C2C6DA1F7005C8BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0771B632C6DA1F7005C8BEE;
+			remoteInfo = AllSensors;
+		};
+		B0771B7F2C6DA1F9005C8BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0771B5C2C6DA1F7005C8BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0771B632C6DA1F7005C8BEE;
+			remoteInfo = AllSensors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B024B9172C74DE6100F24E4B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B024B9132C74DE6100F24E4B /* AllSensorsWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B0142F7D2C6DB8CC00F95FE5 /* AccelerometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerView.swift; sourceTree = "<group>"; };
+		B0142F7F2C6DB8D700F95FE5 /* GyroscopeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroscopeView.swift; sourceTree = "<group>"; };
+		B024B8F02C74DE6000F24E4B /* AllSensorsWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AllSensorsWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B024B8F22C74DE6000F24E4B /* AllSensorsWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSensorsWatchApp.swift; sourceTree = "<group>"; };
+		B024B8F42C74DE6000F24E4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B024B8F62C74DE6000F24E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B024B8F92C74DE6000F24E4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B024B8FF2C74DE6100F24E4B /* AllSensorsWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AllSensorsWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B024B9032C74DE6100F24E4B /* AllSensorsWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSensorsWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		B024B9092C74DE6100F24E4B /* AllSensorsWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AllSensorsWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B024B90D2C74DE6100F24E4B /* AllSensorsWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSensorsWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		B024B90F2C74DE6100F24E4B /* AllSensorsWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSensorsWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B024B91F2C74DF5D00F24E4B /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.5.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		B024B9212C74DF6900F24E4B /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		B024B9232C74EDCF00F24E4B /* AllSensors.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AllSensors.entitlements; sourceTree = "<group>"; };
+		B05E2C762C6DF02600CD2FA9 /* gravity1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = gravity1.gif; path = images/gravity1.gif; sourceTree = SOURCE_ROOT; };
+		B0771B642C6DA1F7005C8BEE /* AllSensors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllSensors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0771B672C6DA1F7005C8BEE /* AllSensorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSensorsApp.swift; sourceTree = "<group>"; };
+		B0771B692C6DA1F7005C8BEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0771B6B2C6DA1F8005C8BEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0771B6E2C6DA1F8005C8BEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0771B742C6DA1F9005C8BEE /* AllSensorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllSensorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0771B782C6DA1F9005C8BEE /* AllSensorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSensorsTests.swift; sourceTree = "<group>"; };
+		B0771B7E2C6DA1F9005C8BEE /* AllSensorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllSensorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0771B822C6DA1F9005C8BEE /* AllSensorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSensorsUITests.swift; sourceTree = "<group>"; };
+		B0771B842C6DA1F9005C8BEE /* AllSensorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSensorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0771B912C6DA25C005C8BEE /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		B0771B962C6DB338005C8BEE /* GifImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImageView.swift; sourceTree = "<group>"; };
+		B0771B9A2C6DB40C005C8BEE /* gyroscope.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = gyroscope.gif; path = images/gyroscope.gif; sourceTree = SOURCE_ROOT; };
+		B0771B9C2C6DB5B4005C8BEE /* accelerometer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = accelerometer.gif; path = images/accelerometer.gif; sourceTree = SOURCE_ROOT; };
+		B0854B582C78C2E600629139 /* OdometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdometerView.swift; sourceTree = "<group>"; };
+		B09BB4182C6E6D6C003BC227 /* attitude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = attitude.png; path = images/attitude.png; sourceTree = SOURCE_ROOT; };
+		B0CF5B3B2C712C1700D666EE /* altimeter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = altimeter.png; path = images/altimeter.png; sourceTree = SOURCE_ROOT; };
+		B0CF5B3D2C71369000D666EE /* ambient_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ambient_light.png; path = images/ambient_light.png; sourceTree = SOURCE_ROOT; };
+		B0CF5B3F2C71395900D666EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B0D99EFD2C6F255900CA2336 /* AttitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttitudeView.swift; sourceTree = "<group>"; };
+		B0D99F012C6F2D7A00CA2336 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		B0FF4F472C6E78770015D846 /* GravityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityView.swift; sourceTree = "<group>"; };
+		B0FF4F4B2C6E78880015D846 /* FallDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallDetectionView.swift; sourceTree = "<group>"; };
+		B0FF4F4D2C6E789E0015D846 /* HeadphoneMotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadphoneMotionView.swift; sourceTree = "<group>"; };
+		B0FF4F4F2C6E78AF0015D846 /* MovementDisorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementDisorderView.swift; sourceTree = "<group>"; };
+		B0FF4F512C6E78BF0015D846 /* SpeedometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerView.swift; sourceTree = "<group>"; };
+		B0FF4F532C6E78C60015D846 /* StepCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounterView.swift; sourceTree = "<group>"; };
+		B0FF4F552C6E78CE0015D846 /* PedometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerView.swift; sourceTree = "<group>"; };
+		B0FF4F572C6E78D60015D846 /* MotionActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionActivityView.swift; sourceTree = "<group>"; };
+		B0FF4F592C6E78F90015D846 /* AltimeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimeterView.swift; sourceTree = "<group>"; };
+		B0FF4F5B2C6E79030015D846 /* AmbientLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightView.swift; sourceTree = "<group>"; };
+		B0FF4F5D2C6E790A0015D846 /* AmbientPressureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientPressureView.swift; sourceTree = "<group>"; };
+		B0FF4F5F2C6E79110015D846 /* MagnetometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetometerView.swift; sourceTree = "<group>"; };
+		B0FF4F612C6E79180015D846 /* BarometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarometerView.swift; sourceTree = "<group>"; };
+		B0FF4F632C6E79210015D846 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		B0FF4F652C6E792A0015D846 /* VisitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitsView.swift; sourceTree = "<group>"; };
+		B0FF4F672C6E79310015D846 /* HeartRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateView.swift; sourceTree = "<group>"; };
+		B0FF4F692C6E79390015D846 /* WristMotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristMotionView.swift; sourceTree = "<group>"; };
+		B0FF4F6B2C6E79480015D846 /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		B0FF4F6D2C6E79500015D846 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		B0FF4F6F2C6E79570015D846 /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		B0FF4F712C6E795E0015D846 /* KeyboardMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMetricsView.swift; sourceTree = "<group>"; };
+		B0FF4F732C6E79660015D846 /* SiriSpeechMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriSpeechMetricsView.swift; sourceTree = "<group>"; };
+		B0FF4F752C6E796D0015D846 /* TelephonySpeechMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelephonySpeechMetricsView.swift; sourceTree = "<group>"; };
+		B0FF4F772C6E79820015D846 /* MediaEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaEventsView.swift; sourceTree = "<group>"; };
+		B0FF4F7B2C6E79950015D846 /* AltitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeView.swift; sourceTree = "<group>"; };
+		B0FF4F7F2C6E79A40015D846 /* OrientationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B024B8ED2C74DE6000F24E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B024B9202C74DF5E00F24E4B /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B024B8FC2C74DE6100F24E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B024B9062C74DE6100F24E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771B612C6DA1F7005C8BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0771B952C6DB1F3005C8BEE /* SwiftyGif in Frameworks */,
+				B024B9222C74DF6900F24E4B /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771B712C6DA1F9005C8BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771B7B2C6DA1F9005C8BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0142F772C6DB84E00F95FE5 /* SensorViews */ = {
+			isa = PBXGroup;
+			children = (
+				B0142F792C6DB86400F95FE5 /* Non-Inertial */,
+				B0142F782C6DB85D00F95FE5 /* Inertial */,
+			);
+			path = SensorViews;
+			sourceTree = "<group>";
+		};
+		B0142F782C6DB85D00F95FE5 /* Inertial */ = {
+			isa = PBXGroup;
+			children = (
+				B0142F7D2C6DB8CC00F95FE5 /* AccelerometerView.swift */,
+				B0142F7F2C6DB8D700F95FE5 /* GyroscopeView.swift */,
+				B0FF4F472C6E78770015D846 /* GravityView.swift */,
+				B0FF4F4B2C6E78880015D846 /* FallDetectionView.swift */,
+				B0D99EFD2C6F255900CA2336 /* AttitudeView.swift */,
+				B0FF4F4D2C6E789E0015D846 /* HeadphoneMotionView.swift */,
+				B0FF4F4F2C6E78AF0015D846 /* MovementDisorderView.swift */,
+				B0FF4F512C6E78BF0015D846 /* SpeedometerView.swift */,
+				B0854B582C78C2E600629139 /* OdometerView.swift */,
+				B0FF4F532C6E78C60015D846 /* StepCounterView.swift */,
+				B0FF4F552C6E78CE0015D846 /* PedometerView.swift */,
+				B0FF4F572C6E78D60015D846 /* MotionActivityView.swift */,
+			);
+			path = Inertial;
+			sourceTree = "<group>";
+		};
+		B0142F792C6DB86400F95FE5 /* Non-Inertial */ = {
+			isa = PBXGroup;
+			children = (
+				B0FF4F592C6E78F90015D846 /* AltimeterView.swift */,
+				B0FF4F5B2C6E79030015D846 /* AmbientLightView.swift */,
+				B0FF4F5D2C6E790A0015D846 /* AmbientPressureView.swift */,
+				B0FF4F5F2C6E79110015D846 /* MagnetometerView.swift */,
+				B0FF4F612C6E79180015D846 /* BarometerView.swift */,
+				B0FF4F632C6E79210015D846 /* LocationView.swift */,
+				B0FF4F652C6E792A0015D846 /* VisitsView.swift */,
+				B0FF4F672C6E79310015D846 /* HeartRateView.swift */,
+				B0FF4F692C6E79390015D846 /* WristMotionView.swift */,
+			);
+			path = "Non-Inertial";
+			sourceTree = "<group>";
+		};
+		B0142F7A2C6DB88500F95FE5 /* UsageReportViews */ = {
+			isa = PBXGroup;
+			children = (
+				B0FF4F6B2C6E79480015D846 /* DeviceView.swift */,
+				B0FF4F6D2C6E79500015D846 /* MessageView.swift */,
+				B0FF4F6F2C6E79570015D846 /* PhoneView.swift */,
+				B0FF4F712C6E795E0015D846 /* KeyboardMetricsView.swift */,
+				B0FF4F752C6E796D0015D846 /* TelephonySpeechMetricsView.swift */,
+				B0FF4F732C6E79660015D846 /* SiriSpeechMetricsView.swift */,
+			);
+			path = UsageReportViews;
+			sourceTree = "<group>";
+		};
+		B0142F7B2C6DB89E00F95FE5 /* MediaEvents */ = {
+			isa = PBXGroup;
+			children = (
+				B0FF4F772C6E79820015D846 /* MediaEventsView.swift */,
+			);
+			path = MediaEvents;
+			sourceTree = "<group>";
+		};
+		B0142F7C2C6DB8A500F95FE5 /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				B0FF4F7B2C6E79950015D846 /* AltitudeView.swift */,
+				B0FF4F7F2C6E79A40015D846 /* OrientationView.swift */,
+			);
+			path = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		B024B8F12C74DE6000F24E4B /* AllSensorsWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B024B8F22C74DE6000F24E4B /* AllSensorsWatchApp.swift */,
+				B024B8F42C74DE6000F24E4B /* ContentView.swift */,
+				B024B8F62C74DE6000F24E4B /* Assets.xcassets */,
+				B024B8F82C74DE6000F24E4B /* Preview Content */,
+			);
+			path = "AllSensorsWatch Watch App";
+			sourceTree = "<group>";
+		};
+		B024B8F82C74DE6000F24E4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B024B8F92C74DE6000F24E4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B024B9022C74DE6100F24E4B /* AllSensorsWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B024B9032C74DE6100F24E4B /* AllSensorsWatch_Watch_AppTests.swift */,
+			);
+			path = "AllSensorsWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		B024B90C2C74DE6100F24E4B /* AllSensorsWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B024B90D2C74DE6100F24E4B /* AllSensorsWatch_Watch_AppUITests.swift */,
+				B024B90F2C74DE6100F24E4B /* AllSensorsWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "AllSensorsWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		B024B91E2C74DF5D00F24E4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B024B9212C74DF6900F24E4B /* WatchConnectivity.framework */,
+				B024B91F2C74DF5D00F24E4B /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0771B5B2C6DA1F7005C8BEE = {
+			isa = PBXGroup;
+			children = (
+				B0771B662C6DA1F7005C8BEE /* AllSensors */,
+				B0771B772C6DA1F9005C8BEE /* AllSensorsTests */,
+				B0771B812C6DA1F9005C8BEE /* AllSensorsUITests */,
+				B024B8F12C74DE6000F24E4B /* AllSensorsWatch Watch App */,
+				B024B9022C74DE6100F24E4B /* AllSensorsWatch Watch AppTests */,
+				B024B90C2C74DE6100F24E4B /* AllSensorsWatch Watch AppUITests */,
+				B0771B652C6DA1F7005C8BEE /* Products */,
+				B024B91E2C74DF5D00F24E4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0771B652C6DA1F7005C8BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0771B642C6DA1F7005C8BEE /* AllSensors.app */,
+				B0771B742C6DA1F9005C8BEE /* AllSensorsTests.xctest */,
+				B0771B7E2C6DA1F9005C8BEE /* AllSensorsUITests.xctest */,
+				B024B8F02C74DE6000F24E4B /* AllSensorsWatch Watch App.app */,
+				B024B8FF2C74DE6100F24E4B /* AllSensorsWatch Watch AppTests.xctest */,
+				B024B9092C74DE6100F24E4B /* AllSensorsWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0771B662C6DA1F7005C8BEE /* AllSensors */ = {
+			isa = PBXGroup;
+			children = (
+				B024B9232C74EDCF00F24E4B /* AllSensors.entitlements */,
+				B0CF5B3F2C71395900D666EE /* Info.plist */,
+				B0D99EFF2C6F2D6700CA2336 /* Data */,
+				B0FF4F812C6E79C80015D846 /* Views */,
+				B0771B982C6DB3F8005C8BEE /* Assets */,
+				B0771B672C6DA1F7005C8BEE /* AllSensorsApp.swift */,
+				B0771B692C6DA1F7005C8BEE /* ContentView.swift */,
+				B0771B962C6DB338005C8BEE /* GifImageView.swift */,
+				B0771B912C6DA25C005C8BEE /* SideMenuView.swift */,
+				B0771B6B2C6DA1F8005C8BEE /* Assets.xcassets */,
+				B0771B6D2C6DA1F8005C8BEE /* Preview Content */,
+			);
+			path = AllSensors;
+			sourceTree = "<group>";
+		};
+		B0771B6D2C6DA1F8005C8BEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B0771B6E2C6DA1F8005C8BEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0771B772C6DA1F9005C8BEE /* AllSensorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0771B782C6DA1F9005C8BEE /* AllSensorsTests.swift */,
+			);
+			path = AllSensorsTests;
+			sourceTree = "<group>";
+		};
+		B0771B812C6DA1F9005C8BEE /* AllSensorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0771B822C6DA1F9005C8BEE /* AllSensorsUITests.swift */,
+				B0771B842C6DA1F9005C8BEE /* AllSensorsUITestsLaunchTests.swift */,
+			);
+			path = AllSensorsUITests;
+			sourceTree = "<group>";
+		};
+		B0771B982C6DB3F8005C8BEE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B09BB4172C6E6D63003BC227 /* Images */,
+				B0771B992C6DB3FF005C8BEE /* Gif */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B0771B992C6DB3FF005C8BEE /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				B0771B9C2C6DB5B4005C8BEE /* accelerometer.gif */,
+				B05E2C762C6DF02600CD2FA9 /* gravity1.gif */,
+				B0771B9A2C6DB40C005C8BEE /* gyroscope.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
+		B09BB4172C6E6D63003BC227 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B0CF5B3D2C71369000D666EE /* ambient_light.png */,
+				B0CF5B3B2C712C1700D666EE /* altimeter.png */,
+				B09BB4182C6E6D6C003BC227 /* attitude.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B0D99EFF2C6F2D6700CA2336 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B0D99F002C6F2D6D00CA2336 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B0D99F002C6F2D6D00CA2336 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0D99F012C6F2D7A00CA2336 /* DataModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0FF4F812C6E79C80015D846 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0142F7C2C6DB8A500F95FE5 /* Miscellaneous */,
+				B0142F7B2C6DB89E00F95FE5 /* MediaEvents */,
+				B0142F7A2C6DB88500F95FE5 /* UsageReportViews */,
+				B0142F772C6DB84E00F95FE5 /* SensorViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B024B8EF2C74DE6000F24E4B /* AllSensorsWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B024B9142C74DE6100F24E4B /* Build configuration list for PBXNativeTarget "AllSensorsWatch Watch App" */;
+			buildPhases = (
+				B024B8EC2C74DE6000F24E4B /* Sources */,
+				B024B8ED2C74DE6000F24E4B /* Frameworks */,
+				B024B8EE2C74DE6000F24E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AllSensorsWatch Watch App";
+			productName = "AllSensorsWatch Watch App";
+			productReference = B024B8F02C74DE6000F24E4B /* AllSensorsWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B024B8FE2C74DE6100F24E4B /* AllSensorsWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B024B9182C74DE6100F24E4B /* Build configuration list for PBXNativeTarget "AllSensorsWatch Watch AppTests" */;
+			buildPhases = (
+				B024B8FB2C74DE6100F24E4B /* Sources */,
+				B024B8FC2C74DE6100F24E4B /* Frameworks */,
+				B024B8FD2C74DE6100F24E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B024B9012C74DE6100F24E4B /* PBXTargetDependency */,
+			);
+			name = "AllSensorsWatch Watch AppTests";
+			productName = "AllSensorsWatch Watch AppTests";
+			productReference = B024B8FF2C74DE6100F24E4B /* AllSensorsWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B024B9082C74DE6100F24E4B /* AllSensorsWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B024B91B2C74DE6100F24E4B /* Build configuration list for PBXNativeTarget "AllSensorsWatch Watch AppUITests" */;
+			buildPhases = (
+				B024B9052C74DE6100F24E4B /* Sources */,
+				B024B9062C74DE6100F24E4B /* Frameworks */,
+				B024B9072C74DE6100F24E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B024B90B2C74DE6100F24E4B /* PBXTargetDependency */,
+			);
+			name = "AllSensorsWatch Watch AppUITests";
+			productName = "AllSensorsWatch Watch AppUITests";
+			productReference = B024B9092C74DE6100F24E4B /* AllSensorsWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B0771B632C6DA1F7005C8BEE /* AllSensors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0771B882C6DA1F9005C8BEE /* Build configuration list for PBXNativeTarget "AllSensors" */;
+			buildPhases = (
+				B0771B602C6DA1F7005C8BEE /* Sources */,
+				B0771B612C6DA1F7005C8BEE /* Frameworks */,
+				B0771B622C6DA1F7005C8BEE /* Resources */,
+				B024B9172C74DE6100F24E4B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B024B9122C74DE6100F24E4B /* PBXTargetDependency */,
+			);
+			name = AllSensors;
+			packageProductDependencies = (
+				B0771B942C6DB1F3005C8BEE /* SwiftyGif */,
+			);
+			productName = AllSensors;
+			productReference = B0771B642C6DA1F7005C8BEE /* AllSensors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0771B732C6DA1F9005C8BEE /* AllSensorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0771B8B2C6DA1F9005C8BEE /* Build configuration list for PBXNativeTarget "AllSensorsTests" */;
+			buildPhases = (
+				B0771B702C6DA1F9005C8BEE /* Sources */,
+				B0771B712C6DA1F9005C8BEE /* Frameworks */,
+				B0771B722C6DA1F9005C8BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0771B762C6DA1F9005C8BEE /* PBXTargetDependency */,
+			);
+			name = AllSensorsTests;
+			productName = AllSensorsTests;
+			productReference = B0771B742C6DA1F9005C8BEE /* AllSensorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0771B7D2C6DA1F9005C8BEE /* AllSensorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0771B8E2C6DA1F9005C8BEE /* Build configuration list for PBXNativeTarget "AllSensorsUITests" */;
+			buildPhases = (
+				B0771B7A2C6DA1F9005C8BEE /* Sources */,
+				B0771B7B2C6DA1F9005C8BEE /* Frameworks */,
+				B0771B7C2C6DA1F9005C8BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0771B802C6DA1F9005C8BEE /* PBXTargetDependency */,
+			);
+			name = AllSensorsUITests;
+			productName = AllSensorsUITests;
+			productReference = B0771B7E2C6DA1F9005C8BEE /* AllSensorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0771B5C2C6DA1F7005C8BEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B024B8EF2C74DE6000F24E4B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B024B8FE2C74DE6100F24E4B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B024B8EF2C74DE6000F24E4B;
+					};
+					B024B9082C74DE6100F24E4B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B024B8EF2C74DE6000F24E4B;
+					};
+					B0771B632C6DA1F7005C8BEE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B0771B732C6DA1F9005C8BEE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B0771B632C6DA1F7005C8BEE;
+					};
+					B0771B7D2C6DA1F9005C8BEE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B0771B632C6DA1F7005C8BEE;
+					};
+				};
+			};
+			buildConfigurationList = B0771B5F2C6DA1F7005C8BEE /* Build configuration list for PBXProject "AllSensors" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0771B5B2C6DA1F7005C8BEE;
+			packageReferences = (
+				B0771B932C6DB1F3005C8BEE /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+			);
+			productRefGroup = B0771B652C6DA1F7005C8BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0771B632C6DA1F7005C8BEE /* AllSensors */,
+				B0771B732C6DA1F9005C8BEE /* AllSensorsTests */,
+				B0771B7D2C6DA1F9005C8BEE /* AllSensorsUITests */,
+				B024B8EF2C74DE6000F24E4B /* AllSensorsWatch Watch App */,
+				B024B8FE2C74DE6100F24E4B /* AllSensorsWatch Watch AppTests */,
+				B024B9082C74DE6100F24E4B /* AllSensorsWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B024B8EE2C74DE6000F24E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B024B8FA2C74DE6000F24E4B /* Preview Assets.xcassets in Resources */,
+				B024B8F72C74DE6000F24E4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B024B8FD2C74DE6100F24E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B024B9072C74DE6100F24E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771B622C6DA1F7005C8BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0771B9D2C6DB5B4005C8BEE /* accelerometer.gif in Resources */,
+				B05E2C772C6DF02600CD2FA9 /* gravity1.gif in Resources */,
+				B0CF5B3C2C712C1700D666EE /* altimeter.png in Resources */,
+				B0CF5B3E2C71369000D666EE /* ambient_light.png in Resources */,
+				B0771B9B2C6DB40C005C8BEE /* gyroscope.gif in Resources */,
+				B0771B6F2C6DA1F8005C8BEE /* Preview Assets.xcassets in Resources */,
+				B0771B6C2C6DA1F8005C8BEE /* Assets.xcassets in Resources */,
+				B09BB4192C6E6D6C003BC227 /* attitude.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771B722C6DA1F9005C8BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771B7C2C6DA1F9005C8BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B024B8EC2C74DE6000F24E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B024B8F52C74DE6000F24E4B /* ContentView.swift in Sources */,
+				B024B8F32C74DE6000F24E4B /* AllSensorsWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B024B8FB2C74DE6100F24E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B024B9042C74DE6100F24E4B /* AllSensorsWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B024B9052C74DE6100F24E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B024B9102C74DE6100F24E4B /* AllSensorsWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				B024B90E2C74DE6100F24E4B /* AllSensorsWatch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771B602C6DA1F7005C8BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FF4F5A2C6E78F90015D846 /* AltimeterView.swift in Sources */,
+				B0D99F022C6F2D7A00CA2336 /* DataModels.swift in Sources */,
+				B0142F802C6DB8D700F95FE5 /* GyroscopeView.swift in Sources */,
+				B0771B922C6DA25C005C8BEE /* SideMenuView.swift in Sources */,
+				B0FF4F802C6E79A40015D846 /* OrientationView.swift in Sources */,
+				B0FF4F642C6E79210015D846 /* LocationView.swift in Sources */,
+				B0FF4F5E2C6E790A0015D846 /* AmbientPressureView.swift in Sources */,
+				B0854B592C78C2E600629139 /* OdometerView.swift in Sources */,
+				B0FF4F522C6E78BF0015D846 /* SpeedometerView.swift in Sources */,
+				B0D99EFE2C6F255A00CA2336 /* AttitudeView.swift in Sources */,
+				B0FF4F6C2C6E79480015D846 /* DeviceView.swift in Sources */,
+				B0FF4F602C6E79110015D846 /* MagnetometerView.swift in Sources */,
+				B0FF4F682C6E79310015D846 /* HeartRateView.swift in Sources */,
+				B0FF4F582C6E78D60015D846 /* MotionActivityView.swift in Sources */,
+				B0FF4F6A2C6E79390015D846 /* WristMotionView.swift in Sources */,
+				B0FF4F502C6E78AF0015D846 /* MovementDisorderView.swift in Sources */,
+				B0FF4F662C6E792A0015D846 /* VisitsView.swift in Sources */,
+				B0FF4F4E2C6E789E0015D846 /* HeadphoneMotionView.swift in Sources */,
+				B0771B972C6DB338005C8BEE /* GifImageView.swift in Sources */,
+				B0FF4F542C6E78C60015D846 /* StepCounterView.swift in Sources */,
+				B0FF4F4C2C6E78880015D846 /* FallDetectionView.swift in Sources */,
+				B0FF4F6E2C6E79500015D846 /* MessageView.swift in Sources */,
+				B0FF4F722C6E795E0015D846 /* KeyboardMetricsView.swift in Sources */,
+				B0FF4F5C2C6E79030015D846 /* AmbientLightView.swift in Sources */,
+				B0771B6A2C6DA1F7005C8BEE /* ContentView.swift in Sources */,
+				B0FF4F762C6E796D0015D846 /* TelephonySpeechMetricsView.swift in Sources */,
+				B0771B682C6DA1F7005C8BEE /* AllSensorsApp.swift in Sources */,
+				B0FF4F702C6E79570015D846 /* PhoneView.swift in Sources */,
+				B0FF4F742C6E79660015D846 /* SiriSpeechMetricsView.swift in Sources */,
+				B0FF4F7C2C6E79950015D846 /* AltitudeView.swift in Sources */,
+				B0FF4F482C6E78770015D846 /* GravityView.swift in Sources */,
+				B0FF4F782C6E79820015D846 /* MediaEventsView.swift in Sources */,
+				B0FF4F562C6E78CE0015D846 /* PedometerView.swift in Sources */,
+				B0FF4F622C6E79180015D846 /* BarometerView.swift in Sources */,
+				B0142F7E2C6DB8CC00F95FE5 /* AccelerometerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771B702C6DA1F9005C8BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0771B792C6DA1F9005C8BEE /* AllSensorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0771B7A2C6DA1F9005C8BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0771B852C6DA1F9005C8BEE /* AllSensorsUITestsLaunchTests.swift in Sources */,
+				B0771B832C6DA1F9005C8BEE /* AllSensorsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B024B9012C74DE6100F24E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B024B8EF2C74DE6000F24E4B /* AllSensorsWatch Watch App */;
+			targetProxy = B024B9002C74DE6100F24E4B /* PBXContainerItemProxy */;
+		};
+		B024B90B2C74DE6100F24E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B024B8EF2C74DE6000F24E4B /* AllSensorsWatch Watch App */;
+			targetProxy = B024B90A2C74DE6100F24E4B /* PBXContainerItemProxy */;
+		};
+		B024B9122C74DE6100F24E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B024B8EF2C74DE6000F24E4B /* AllSensorsWatch Watch App */;
+			targetProxy = B024B9112C74DE6100F24E4B /* PBXContainerItemProxy */;
+		};
+		B0771B762C6DA1F9005C8BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0771B632C6DA1F7005C8BEE /* AllSensors */;
+			targetProxy = B0771B752C6DA1F9005C8BEE /* PBXContainerItemProxy */;
+		};
+		B0771B802C6DA1F9005C8BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0771B632C6DA1F7005C8BEE /* AllSensors */;
+			targetProxy = B0771B7F2C6DA1F9005C8BEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B024B9152C74DE6100F24E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AllSensorsWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AllSensorsWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = in.kaligotla.AllSensors;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllSensors.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		B024B9162C74DE6100F24E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AllSensorsWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AllSensorsWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = in.kaligotla.AllSensors;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllSensors.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		B024B9192C74DE6100F24E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.kaligotla.AllSensorsWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllSensorsWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AllSensorsWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		B024B91A2C74DE6100F24E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.kaligotla.AllSensorsWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllSensorsWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AllSensorsWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		B024B91C2C74DE6100F24E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.kaligotla.AllSensorsWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AllSensorsWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		B024B91D2C74DE6100F24E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.kaligotla.AllSensorsWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AllSensorsWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		B0771B862C6DA1F9005C8BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0771B872C6DA1F9005C8BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0771B892C6DA1F9005C8BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AllSensors/AllSensors.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AllSensors/Preview Content\"";
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AllSensors/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to measure the distance traveled even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to measure the distance traveled.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "We need access to motion data to provide odometer functionality.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllSensors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0771B8A2C6DA1F9005C8BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AllSensors/AllSensors.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AllSensors/Preview Content\"";
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AllSensors/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to measure the distance traveled even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to measure the distance traveled.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "We need access to motion data to provide odometer functionality.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllSensors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0771B8C2C6DA1F9005C8BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllSensorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllSensors.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AllSensors";
+			};
+			name = Debug;
+		};
+		B0771B8D2C6DA1F9005C8BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllSensorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllSensors.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AllSensors";
+			};
+			name = Release;
+		};
+		B0771B8F2C6DA1F9005C8BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllSensorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AllSensors;
+			};
+			name = Debug;
+		};
+		B0771B902C6DA1F9005C8BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.AllSensorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AllSensors;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B024B9142C74DE6100F24E4B /* Build configuration list for PBXNativeTarget "AllSensorsWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B024B9152C74DE6100F24E4B /* Debug */,
+				B024B9162C74DE6100F24E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B024B9182C74DE6100F24E4B /* Build configuration list for PBXNativeTarget "AllSensorsWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B024B9192C74DE6100F24E4B /* Debug */,
+				B024B91A2C74DE6100F24E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B024B91B2C74DE6100F24E4B /* Build configuration list for PBXNativeTarget "AllSensorsWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B024B91C2C74DE6100F24E4B /* Debug */,
+				B024B91D2C74DE6100F24E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0771B5F2C6DA1F7005C8BEE /* Build configuration list for PBXProject "AllSensors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0771B862C6DA1F9005C8BEE /* Debug */,
+				B0771B872C6DA1F9005C8BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0771B882C6DA1F9005C8BEE /* Build configuration list for PBXNativeTarget "AllSensors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0771B892C6DA1F9005C8BEE /* Debug */,
+				B0771B8A2C6DA1F9005C8BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0771B8B2C6DA1F9005C8BEE /* Build configuration list for PBXNativeTarget "AllSensorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0771B8C2C6DA1F9005C8BEE /* Debug */,
+				B0771B8D2C6DA1F9005C8BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0771B8E2C6DA1F9005C8BEE /* Build configuration list for PBXNativeTarget "AllSensorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0771B8F2C6DA1F9005C8BEE /* Debug */,
+				B0771B902C6DA1F9005C8BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B0771B932C6DB1F3005C8BEE /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexiscreuzot/SwiftyGif";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B0771B942C6DB1F3005C8BEE /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0771B932C6DB1F3005C8BEE /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B0771B5C2C6DA1F7005C8BEE /* Project object */;
+}

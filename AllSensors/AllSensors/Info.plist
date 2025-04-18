@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSSensorKitUsageDetail</key>
+	<dict>
+		<key>SRSensorUsageOdometer</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses Odometer data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageWristTemperature</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses Wrist temperature data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageVisits</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses frequent visits data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageSpeechMetrics</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses telephony and siri speech data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageWristDetection</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses wrist detection data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsagePPG</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses photoplethysmogram data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsagePhoneUsage</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses amount of time that the user is on phone calls data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsagePedometer</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses steps data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageMessageUsage</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses information about use of the Messages app data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageMediaEvents</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses information about interactions with media, such as images and videos, in messaging apps data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageHeartRate</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses heart rate data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageKeyboardMetrics</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses information about keyboard usage data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageFacialMetrics</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses face data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageECG</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses streams sample ECG sensor data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageDeviceUsage</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses information about device usage data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageElevation</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses pressure and temperature metrics data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageAmbientLightSensor</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses ambient light information data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsageMotion</key>
+		<dict>
+			<key>Description</key>
+			<string>This describes how my app uses acceleration and rotation motion data.</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>nearby-interaction</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To calculate the velocity speed of the running device we need access to the location when app in use</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>To calculate the velocity speed of the running device when app is in background we need access to the location always</string>
+</dict>
+</plist>

@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B013D0C22C6C81FA00954D2B /* HOSInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B013D0C12C6C81FA00954D2B /* HOSInfoView.swift */; };
+		B013D0C42C6C831800954D2B /* HOSOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B013D0C32C6C831800954D2B /* HOSOptionsView.swift */; };
+		B013D0C62C6C84C000954D2B /* CountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B013D0C52C6C84C000954D2B /* CountdownTimerView.swift */; };
+		B013D0C82C6C8E0C00954D2B /* TruckAndTrailerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B013D0C72C6C8E0C00954D2B /* TruckAndTrailerView.swift */; };
+		B02560542C6646E1002ECA16 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02560532C6646E1002ECA16 /* API.swift */; };
+		B02560572C664918002ECA16 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B02560562C664918002ECA16 /* Alamofire */; };
+		B036C3DD2C64B4E00017A16F /* FlyWeisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036C3DC2C64B4E00017A16F /* FlyWeisApp.swift */; };
+		B036C3DF2C64B4E00017A16F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036C3DE2C64B4E00017A16F /* ContentView.swift */; };
+		B036C3E12C64B4E10017A16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B036C3E02C64B4E10017A16F /* Assets.xcassets */; };
+		B036C3E42C64B4E10017A16F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B036C3E32C64B4E10017A16F /* Preview Assets.xcassets */; };
+		B036C3EE2C64B4E20017A16F /* FlyWeisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036C3ED2C64B4E20017A16F /* FlyWeisTests.swift */; };
+		B036C3F82C64B4E20017A16F /* FlyWeisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036C3F72C64B4E20017A16F /* FlyWeisUITests.swift */; };
+		B036C3FA2C64B4E20017A16F /* FlyWeisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036C3F92C64B4E20017A16F /* FlyWeisUITestsLaunchTests.swift */; };
+		B036C4072C64B58B0017A16F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036C4062C64B58B0017A16F /* SplashView.swift */; };
+		B036C4092C64D0800017A16F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036C4082C64D07F0017A16F /* LoginView.swift */; };
+		B036C40B2C64DBD60017A16F /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B036C40A2C64DBD60017A16F /* PermissionView.swift */; };
+		B044A6A62C6A13EA001A3AD9 /* OrientationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044A6A52C6A13EA001A3AD9 /* OrientationObserver.swift */; };
+		B044A6A82C6A2819001A3AD9 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044A6A72C6A2819001A3AD9 /* Accelerometer.swift */; };
+		B044A6AA2C6A294E001A3AD9 /* Gyroscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044A6A92C6A294E001A3AD9 /* Gyroscope.swift */; };
+		B05753ED2C6532820006BB47 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05753EC2C6532820006BB47 /* MainView.swift */; };
+		B05753EF2C6533740006BB47 /* TermsandConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05753EE2C6533740006BB47 /* TermsandConditionsView.swift */; };
+		B05753F12C65337B0006BB47 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05753F02C65337B0006BB47 /* PrivacyPolicyView.swift */; };
+		B05753F32C6546DA0006BB47 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05753F22C6546DA0006BB47 /* HomeView.swift */; };
+		B05753F52C6546EF0006BB47 /* LogbookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05753F42C6546EF0006BB47 /* LogbookView.swift */; };
+		B05753F72C6546F50006BB47 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05753F62C6546F50006BB47 /* MessagesView.swift */; };
+		B05753F92C6546FC0006BB47 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05753F82C6546FC0006BB47 /* MoreView.swift */; };
+		B05753FB2C654BCF0006BB47 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05753FA2C654BCF0006BB47 /* NotificationView.swift */; };
+		B05753FD2C657CE70006BB47 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05753FC2C657CE70006BB47 /* GraphView.swift */; };
+		B07BBC332C64F03900BE8EEA /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07BBC322C64F03900BE8EEA /* LocationHandler.swift */; };
+		B09D3FD42C66DE21003BE3E0 /* NewChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D3FD32C66DE21003BE3E0 /* NewChatView.swift */; };
+		B0AE623C2C660FB600D10F27 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE623B2C660FB600D10F27 /* Extras.swift */; };
+		B0AE623E2C660FE600D10F27 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE623D2C660FE600D10F27 /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B036C3EA2C64B4E20017A16F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B036C3D12C64B4E00017A16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B036C3D82C64B4E00017A16F;
+			remoteInfo = FlyWeis;
+		};
+		B036C3F42C64B4E20017A16F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B036C3D12C64B4E00017A16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B036C3D82C64B4E00017A16F;
+			remoteInfo = FlyWeis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B013D0C12C6C81FA00954D2B /* HOSInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOSInfoView.swift; sourceTree = "<group>"; };
+		B013D0C32C6C831800954D2B /* HOSOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOSOptionsView.swift; sourceTree = "<group>"; };
+		B013D0C52C6C84C000954D2B /* CountdownTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerView.swift; sourceTree = "<group>"; };
+		B013D0C72C6C8E0C00954D2B /* TruckAndTrailerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckAndTrailerView.swift; sourceTree = "<group>"; };
+		B02560532C6646E1002ECA16 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B036C3D92C64B4E00017A16F /* FlyWeis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyWeis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B036C3DC2C64B4E00017A16F /* FlyWeisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeisApp.swift; sourceTree = "<group>"; };
+		B036C3DE2C64B4E00017A16F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B036C3E02C64B4E10017A16F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B036C3E32C64B4E10017A16F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B036C3E92C64B4E20017A16F /* FlyWeisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyWeisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B036C3ED2C64B4E20017A16F /* FlyWeisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeisTests.swift; sourceTree = "<group>"; };
+		B036C3F32C64B4E20017A16F /* FlyWeisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyWeisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B036C3F72C64B4E20017A16F /* FlyWeisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeisUITests.swift; sourceTree = "<group>"; };
+		B036C3F92C64B4E20017A16F /* FlyWeisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B036C4062C64B58B0017A16F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B036C4082C64D07F0017A16F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B036C40A2C64DBD60017A16F /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
+		B036C40E2C64EE7F0017A16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B044A6A52C6A13EA001A3AD9 /* OrientationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationObserver.swift; sourceTree = "<group>"; };
+		B044A6A72C6A2819001A3AD9 /* Accelerometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer.swift; sourceTree = "<group>"; };
+		B044A6A92C6A294E001A3AD9 /* Gyroscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gyroscope.swift; sourceTree = "<group>"; };
+		B05753EC2C6532820006BB47 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B05753EE2C6533740006BB47 /* TermsandConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsandConditionsView.swift; sourceTree = "<group>"; };
+		B05753F02C65337B0006BB47 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		B05753F22C6546DA0006BB47 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B05753F42C6546EF0006BB47 /* LogbookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogbookView.swift; sourceTree = "<group>"; };
+		B05753F62C6546F50006BB47 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		B05753F82C6546FC0006BB47 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		B05753FA2C654BCF0006BB47 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		B05753FC2C657CE70006BB47 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		B07BBC322C64F03900BE8EEA /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		B09D3FD32C66DE21003BE3E0 /* NewChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatView.swift; sourceTree = "<group>"; };
+		B0AE623B2C660FB600D10F27 /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+		B0AE623D2C660FE600D10F27 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B036C3D62C64B4E00017A16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02560572C664918002ECA16 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B036C3E62C64B4E20017A16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B036C3F02C64B4E20017A16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B02560522C6646CD002ECA16 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B02560532C6646E1002ECA16 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B02560552C664918002ECA16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B036C3D02C64B4E00017A16F = {
+			isa = PBXGroup;
+			children = (
+				B036C3DB2C64B4E00017A16F /* FlyWeis */,
+				B036C3EC2C64B4E20017A16F /* FlyWeisTests */,
+				B036C3F62C64B4E20017A16F /* FlyWeisUITests */,
+				B036C3DA2C64B4E00017A16F /* Products */,
+				B02560552C664918002ECA16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B036C3DA2C64B4E00017A16F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B036C3D92C64B4E00017A16F /* FlyWeis.app */,
+				B036C3E92C64B4E20017A16F /* FlyWeisTests.xctest */,
+				B036C3F32C64B4E20017A16F /* FlyWeisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B036C3DB2C64B4E00017A16F /* FlyWeis */ = {
+			isa = PBXGroup;
+			children = (
+				B02560522C6646CD002ECA16 /* API */,
+				B0AE62442C66132700D10F27 /* Permissions */,
+				B0AE62432C66131400D10F27 /* Extras */,
+				B0AE62422C6612F800D10F27 /* App */,
+				B0AE62412C6612D300D10F27 /* InitialScreens */,
+				B0AE62402C6612CA00D10F27 /* Model */,
+				B0AE623F2C66129000D10F27 /* HomeTabs */,
+				B036C40E2C64EE7F0017A16F /* Info.plist */,
+				B036C3DC2C64B4E00017A16F /* FlyWeisApp.swift */,
+				B036C3DE2C64B4E00017A16F /* ContentView.swift */,
+				B036C3E02C64B4E10017A16F /* Assets.xcassets */,
+				B036C3E22C64B4E10017A16F /* Preview Content */,
+			);
+			path = FlyWeis;
+			sourceTree = "<group>";
+		};
+		B036C3E22C64B4E10017A16F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B036C3E32C64B4E10017A16F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B036C3EC2C64B4E20017A16F /* FlyWeisTests */ = {
+			isa = PBXGroup;
+			children = (
+				B036C3ED2C64B4E20017A16F /* FlyWeisTests.swift */,
+			);
+			path = FlyWeisTests;
+			sourceTree = "<group>";
+		};
+		B036C3F62C64B4E20017A16F /* FlyWeisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B036C3F72C64B4E20017A16F /* FlyWeisUITests.swift */,
+				B036C3F92C64B4E20017A16F /* FlyWeisUITestsLaunchTests.swift */,
+			);
+			path = FlyWeisUITests;
+			sourceTree = "<group>";
+		};
+		B0AE623F2C66129000D10F27 /* HomeTabs */ = {
+			isa = PBXGroup;
+			children = (
+				B05753EC2C6532820006BB47 /* MainView.swift */,
+				B05753F22C6546DA0006BB47 /* HomeView.swift */,
+				B013D0C12C6C81FA00954D2B /* HOSInfoView.swift */,
+				B05753F42C6546EF0006BB47 /* LogbookView.swift */,
+				B05753F62C6546F50006BB47 /* MessagesView.swift */,
+				B09D3FD32C66DE21003BE3E0 /* NewChatView.swift */,
+				B05753F82C6546FC0006BB47 /* MoreView.swift */,
+				B013D0C72C6C8E0C00954D2B /* TruckAndTrailerView.swift */,
+			);
+			path = HomeTabs;
+			sourceTree = "<group>";
+		};
+		B0AE62402C6612CA00D10F27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0AE623D2C660FE600D10F27 /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0AE62412C6612D300D10F27 /* InitialScreens */ = {
+			isa = PBXGroup;
+			children = (
+				B036C4082C64D07F0017A16F /* LoginView.swift */,
+				B036C4062C64B58B0017A16F /* SplashView.swift */,
+			);
+			path = InitialScreens;
+			sourceTree = "<group>";
+		};
+		B0AE62422C6612F800D10F27 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B05753EE2C6533740006BB47 /* TermsandConditionsView.swift */,
+				B05753F02C65337B0006BB47 /* PrivacyPolicyView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B0AE62432C66131400D10F27 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				B05753FC2C657CE70006BB47 /* GraphView.swift */,
+				B013D0C32C6C831800954D2B /* HOSOptionsView.swift */,
+				B0AE623B2C660FB600D10F27 /* Extras.swift */,
+				B013D0C52C6C84C000954D2B /* CountdownTimerView.swift */,
+				B044A6A52C6A13EA001A3AD9 /* OrientationObserver.swift */,
+				B044A6A92C6A294E001A3AD9 /* Gyroscope.swift */,
+				B044A6A72C6A2819001A3AD9 /* Accelerometer.swift */,
+				B07BBC322C64F03900BE8EEA /* LocationHandler.swift */,
+				B05753FA2C654BCF0006BB47 /* NotificationView.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		B0AE62442C66132700D10F27 /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				B036C40A2C64DBD60017A16F /* PermissionView.swift */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B036C3D82C64B4E00017A16F /* FlyWeis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B036C3FD2C64B4E20017A16F /* Build configuration list for PBXNativeTarget "FlyWeis" */;
+			buildPhases = (
+				B036C3D52C64B4E00017A16F /* Sources */,
+				B036C3D62C64B4E00017A16F /* Frameworks */,
+				B036C3D72C64B4E00017A16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyWeis;
+			packageProductDependencies = (
+				B02560562C664918002ECA16 /* Alamofire */,
+			);
+			productName = FlyWeis;
+			productReference = B036C3D92C64B4E00017A16F /* FlyWeis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B036C3E82C64B4E20017A16F /* FlyWeisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B036C4002C64B4E20017A16F /* Build configuration list for PBXNativeTarget "FlyWeisTests" */;
+			buildPhases = (
+				B036C3E52C64B4E20017A16F /* Sources */,
+				B036C3E62C64B4E20017A16F /* Frameworks */,
+				B036C3E72C64B4E20017A16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B036C3EB2C64B4E20017A16F /* PBXTargetDependency */,
+			);
+			name = FlyWeisTests;
+			productName = FlyWeisTests;
+			productReference = B036C3E92C64B4E20017A16F /* FlyWeisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B036C3F22C64B4E20017A16F /* FlyWeisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B036C4032C64B4E20017A16F /* Build configuration list for PBXNativeTarget "FlyWeisUITests" */;
+			buildPhases = (
+				B036C3EF2C64B4E20017A16F /* Sources */,
+				B036C3F02C64B4E20017A16F /* Frameworks */,
+				B036C3F12C64B4E20017A16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B036C3F52C64B4E20017A16F /* PBXTargetDependency */,
+			);
+			name = FlyWeisUITests;
+			productName = FlyWeisUITests;
+			productReference = B036C3F32C64B4E20017A16F /* FlyWeisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B036C3D12C64B4E00017A16F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B036C3D82C64B4E00017A16F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B036C3E82C64B4E20017A16F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B036C3D82C64B4E00017A16F;
+					};
+					B036C3F22C64B4E20017A16F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B036C3D82C64B4E00017A16F;
+					};
+				};
+			};
+			buildConfigurationList = B036C3D42C64B4E00017A16F /* Build configuration list for PBXProject "FlyWeis" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B036C3D02C64B4E00017A16F;
+			packageReferences = (
+				B025604D2C6646C3002ECA16 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = B036C3DA2C64B4E00017A16F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B036C3D82C64B4E00017A16F /* FlyWeis */,
+				B036C3E82C64B4E20017A16F /* FlyWeisTests */,
+				B036C3F22C64B4E20017A16F /* FlyWeisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B036C3D72C64B4E00017A16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B036C3E42C64B4E10017A16F /* Preview Assets.xcassets in Resources */,
+				B036C3E12C64B4E10017A16F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B036C3E72C64B4E20017A16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B036C3F12C64B4E20017A16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B036C3D52C64B4E00017A16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B013D0C42C6C831800954D2B /* HOSOptionsView.swift in Sources */,
+				B036C3DF2C64B4E00017A16F /* ContentView.swift in Sources */,
+				B013D0C22C6C81FA00954D2B /* HOSInfoView.swift in Sources */,
+				B0AE623E2C660FE600D10F27 /* Models.swift in Sources */,
+				B05753ED2C6532820006BB47 /* MainView.swift in Sources */,
+				B05753EF2C6533740006BB47 /* TermsandConditionsView.swift in Sources */,
+				B05753F92C6546FC0006BB47 /* MoreView.swift in Sources */,
+				B05753F32C6546DA0006BB47 /* HomeView.swift in Sources */,
+				B013D0C82C6C8E0C00954D2B /* TruckAndTrailerView.swift in Sources */,
+				B05753FD2C657CE70006BB47 /* GraphView.swift in Sources */,
+				B05753F12C65337B0006BB47 /* PrivacyPolicyView.swift in Sources */,
+				B09D3FD42C66DE21003BE3E0 /* NewChatView.swift in Sources */,
+				B036C4092C64D0800017A16F /* LoginView.swift in Sources */,
+				B036C3DD2C64B4E00017A16F /* FlyWeisApp.swift in Sources */,
+				B07BBC332C64F03900BE8EEA /* LocationHandler.swift in Sources */,
+				B044A6A62C6A13EA001A3AD9 /* OrientationObserver.swift in Sources */,
+				B05753FB2C654BCF0006BB47 /* NotificationView.swift in Sources */,
+				B05753F72C6546F50006BB47 /* MessagesView.swift in Sources */,
+				B044A6AA2C6A294E001A3AD9 /* Gyroscope.swift in Sources */,
+				B05753F52C6546EF0006BB47 /* LogbookView.swift in Sources */,
+				B013D0C62C6C84C000954D2B /* CountdownTimerView.swift in Sources */,
+				B036C40B2C64DBD60017A16F /* PermissionView.swift in Sources */,
+				B0AE623C2C660FB600D10F27 /* Extras.swift in Sources */,
+				B044A6A82C6A2819001A3AD9 /* Accelerometer.swift in Sources */,
+				B02560542C6646E1002ECA16 /* API.swift in Sources */,
+				B036C4072C64B58B0017A16F /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B036C3E52C64B4E20017A16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B036C3EE2C64B4E20017A16F /* FlyWeisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B036C3EF2C64B4E20017A16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B036C3FA2C64B4E20017A16F /* FlyWeisUITestsLaunchTests.swift in Sources */,
+				B036C3F82C64B4E20017A16F /* FlyWeisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B036C3EB2C64B4E20017A16F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B036C3D82C64B4E00017A16F /* FlyWeis */;
+			targetProxy = B036C3EA2C64B4E20017A16F /* PBXContainerItemProxy */;
+		};
+		B036C3F52C64B4E20017A16F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B036C3D82C64B4E00017A16F /* FlyWeis */;
+			targetProxy = B036C3F42C64B4E20017A16F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B036C3FB2C64B4E20017A16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B036C3FC2C64B4E20017A16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B036C3FE2C64B4E20017A16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlyWeis/Preview Content\"";
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlyWeis/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to provide personalized services even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide personalized services even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "App requires location of the user for better service";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide personalized services.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.FlyWeis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B036C3FF2C64B4E20017A16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlyWeis/Preview Content\"";
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlyWeis/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to provide personalized services even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide personalized services even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "App requires location of the user for better service";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide personalized services.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.FlyWeis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B036C4012C64B4E20017A16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.FlyWeisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyWeis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlyWeis";
+			};
+			name = Debug;
+		};
+		B036C4022C64B4E20017A16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.FlyWeisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyWeis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlyWeis";
+			};
+			name = Release;
+		};
+		B036C4042C64B4E20017A16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.FlyWeisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlyWeis;
+			};
+			name = Debug;
+		};
+		B036C4052C64B4E20017A16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAU79VDZTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.kaligotla.FlyWeisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlyWeis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B036C3D42C64B4E00017A16F /* Build configuration list for PBXProject "FlyWeis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B036C3FB2C64B4E20017A16F /* Debug */,
+				B036C3FC2C64B4E20017A16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B036C3FD2C64B4E20017A16F /* Build configuration list for PBXNativeTarget "FlyWeis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B036C3FE2C64B4E20017A16F /* Debug */,
+				B036C3FF2C64B4E20017A16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B036C4002C64B4E20017A16F /* Build configuration list for PBXNativeTarget "FlyWeisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B036C4012C64B4E20017A16F /* Debug */,
+				B036C4022C64B4E20017A16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B036C4032C64B4E20017A16F /* Build configuration list for PBXNativeTarget "FlyWeisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B036C4042C64B4E20017A16F /* Debug */,
+				B036C4052C64B4E20017A16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B025604D2C6646C3002ECA16 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B02560562C664918002ECA16 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B025604D2C6646C3002ECA16 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B036C3D12C64B4E00017A16F /* Project object */;
+}

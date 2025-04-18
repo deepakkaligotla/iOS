@@ -1,0 +1,6 @@
+framework module Pods_Shinchan_ShinchanUITests {
+  umbrella header "Pods-Shinchan-ShinchanUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

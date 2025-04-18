@@ -1,0 +1,20 @@
+{
+  "signin": [
+    {
+      "email": "d@gmail.com",
+      "password": "d"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "d@gmail.com",
+      "password": "d"
+    },
+    {
+      "id": 2,
+      "email": "emailid@email.com",
+      "password": "123456"
+    }
+  ]
+}

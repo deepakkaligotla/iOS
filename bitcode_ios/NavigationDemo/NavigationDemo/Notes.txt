@@ -1,0 +1,24 @@
+Seque is old for navigation
+Now -
+    * Forward - (Only OneWay):
+        * Container -
+    * Backward navigation:
+        * ProtocolDelegate - create Protocol & its function.
+        * Closure -
+        * Notifications -
+
+Navigation Controller component
+    * maintains Stack DS internally (LIFO)
+    * Push & Pop
+    * Doesn't have any UI
+    
+Protocol: 
+ * data members should have computed properties which will have get & set
+ * func definition, no body
+ * Conform/conformance (like implements in Java)
+ * property of a Protocol is called Delegate (ProtocolDelegate)
+ 
+ Assistant
+ 
+ Navigation Controller, Navigation Bar, Navigation Item
+

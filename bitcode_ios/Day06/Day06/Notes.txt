@@ -1,0 +1,76 @@
+//
+//  Untitled.txt
+//  Day06
+//
+//  Created by Deepak Kaligotla on 04/03/25.
+//
+
+Swift 6.0.1
+
+Initial View Controller - first screen
+
+iOS app architecture is changed after 13.0v
+SceneDelegate is Scene Lifecycle
+AppDelegate is App Lifecycle
+
+Assets holds images, colors, data,
+Info.plist - configuration of project (information property list) - permissions
+LunchScreen - it is the screen which gets loaded before the first/Main screen
+
+UIKit - user interface Kit - Library for all UI Items
+didReceiveMemoryWarning - is used to clear the unused UI objects
+                                            
+iOS Architecture - CocoaTouch, Media Layer, Core Services, Core OS.
+ViewController - View Lifecycle -
+                * viewDidLoad -
+                * viewDidAppear -
+                * viewWillAppear -
+                * viewDidDisappear -
+                * viewWillDisappear -
+                                            
+command+shift+L to get UI Palette
+CGRect - CoreGraphics Rectangle
+
+ViewController will have view to access - self.view
+Add UI through code -  self.welcomeLabel = UILabel(frame: CGRect(x: 50, y: 50, width: 300, height: 50)) | self.view.addSubview(welcomeLabel!) (CoreGraphics)
+Button events touchUpInside,
+
+Document Outline - Components and constraints
+
+Navigation controller is for maintaining Navigation Stack (LIFO)
+
+Keyword - week, unknown, default(Strong)
+IB - Interface Builder (Storyboard) - Objects Library 
+
+align, add new constraints, resolve auto layout issues, embed in
+* Align
+* Add new constraints - left, top, right, bottom, width, height
+* Resolve auto layout issues
+* Embed In
+
+If constraints applied to one view, all the view must have constraints
+must to check constraint priorities -
+    * Constant: <=, =, >=
+    * Priorities: Required(1000), High (750), Low(250)
+    * Multiplier
+    
+firstItem.ht = multiplier * second.ht + constant
+multiplier = (firstItem.ht-constant)/second.ht
+
+Constraints (Leading, Top, Trailing, Bottom)
+(0,0) |
+------------- center(0,0) set vertical & Horizontal container in Align
+      |
+
+Alignment
+(-x,+y) |  (+x,+y)
+------(0,0)------- center(0,0) set vertical(y) & Horizontal(x) container in Align
+(-x,-y) |  (+x,-y)
+
+**** inspector panel - file, quick help, history, size, identity, attributes, connections ****
+
+Button - addTarget(self, action(ObjC Selector), event), and attribute inspector -> view -> tag helps with redundant code.
+
+StoryBoard ID:
+Restoration ID:
+
