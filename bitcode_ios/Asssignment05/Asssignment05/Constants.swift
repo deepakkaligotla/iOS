@@ -6,5 +6,6 @@
 //
 
 struct Constants {
-    static let urlString = "https://dummyjson.com/products"
+    static let productsUrlString = "https://dummyjson.com/products"
+    static let postsUrlString = "https://dummyjson.com/posts"
 }

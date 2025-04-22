@@ -5,7 +5,7 @@
 //  Created by Deepak Kaligotla on 23/04/25.
 //
 
-struct APIResponse {
+struct ProductsApiResponse {
     var products: [Product]
     var total: Int
     var skip: Int
@@ -20,8 +20,8 @@ struct APIResponse {
         ]
     }
 
-    static func fromDictionary(_ dict: [String: Any]) -> APIResponse {
-        return APIResponse(
+    static func fromDictionary(_ dict: [String: Any]) -> ProductsApiResponse {
+        return ProductsApiResponse(
             products: (dict["products"] as! [[String: Any]]).map { Product.fromDictionary($0) },
             total: dict["total"] as! Int,
             skip: dict["skip"] as! Int,
