@@ -58,7 +58,8 @@ extension ProductsViewController: UICollectionViewDataSource, UICollectionViewDe
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: (collectionView.frame.width - 32) / 3, height: 210)
+        return CGSize(width: ((collectionView.frame.width / 3) - 20),
+                      height: ((collectionView.frame.width / 3) - 20) * 2)
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
