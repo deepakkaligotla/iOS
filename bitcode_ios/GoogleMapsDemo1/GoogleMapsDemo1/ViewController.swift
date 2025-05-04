@@ -12,7 +12,6 @@ import GoogleMaps
 class ViewController: UIViewController {
     @IBOutlet private weak var appleMapView: MKMapView!
     @IBOutlet weak var googleMapView: GMSMapView!
-    private var allAnnotations: [MKAnnotation]?
     private let bitcodeCoordinates = CLLocationCoordinate2D(latitude: 18.509112, longitude: 73.832558)
     
     private let northIndia = CLLocationCoordinate2D(latitude: 35.800953838244816, longitude: 76.89030211418867)

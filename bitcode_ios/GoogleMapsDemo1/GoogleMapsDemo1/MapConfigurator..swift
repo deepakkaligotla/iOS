@@ -25,6 +25,7 @@ struct MapConfigurator {
         let camera = GMSCameraPosition.camera(withTarget: coordinate, zoom: 14.6)
         mapView.camera = camera
         let marker = GMSMarker(position: coordinate)
+        marker.icon
         marker.title = "Bitcode Technologies, Erandwane"
         marker.snippet = "Pune, Maharashtra, India"
         marker.map = mapView

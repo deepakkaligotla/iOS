@@ -30,8 +30,8 @@ class SecondViewController: UIViewController {
     @IBAction func btnPrevious(sender: Any) {
         guard let dataProtocol = navBackwardProtocol else { return }
         dataProtocol.passDataBack(data: cityTextFiel.text == "" ? "Hyderabad" : cityTextFiel.text!)
-//        guard let backDataClosure = backDataClosure else { return }
-//        backDataClosure(cityTextFiel.text == "" ? "Hyderabad" : cityTextFiel.text!)
+        guard let backDataClosure = backDataClosure else { return }
+        backDataClosure(cityTextFiel.text == "" ? "Hyderabad" : cityTextFiel.text!)
         navigationController?.popViewController(animated: true)
     }
 }

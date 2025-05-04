@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AlertControllerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hu9-Wk-ett">
+                                <rect key="frame" x="10" y="128" width="373" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Kp6-d4-uf4"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Simple Alert"/>
+                                <connections>
+                                    <action selector="btnSimpleAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BZe-Qu-Mwo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DdI-rb-fM8">
+                                <rect key="frame" x="10" y="178" width="373" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="pVg-LQ-pxp"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Alert with Text Fields"/>
+                                <connections>
+                                    <action selector="btnAlertWithTextFields:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OqY-Tl-EgD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGt-tb-CFF">
+                                <rect key="frame" x="10" y="228" width="373" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="tS8-pj-jyI"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Alert with Sheets"/>
+                                <connections>
+                                    <action selector="btnAlertWithActionSheet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4bn-qR-rXD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYG-1L-f2q">
+                                <rect key="frame" x="10" y="278" width="373" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="VMq-OK-Mi1"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Simple Alert 2"/>
+                                <connections>
+                                    <action selector="btnSimpleAlert2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mfx-20-k5p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Al2-zG-rBl">
+                                <rect key="frame" x="10" y="328" width="373" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="t5j-eV-KDx"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Custom Alert 1"/>
+                                <connections>
+                                    <action selector="btnCustomAlert1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f57-0h-ey6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHS-uh-iZ3">
+                                <rect key="frame" x="10" y="378" width="373" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="jif-hM-yot"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Custom Alert 2"/>
+                                <connections>
+                                    <action selector="btnCustomAlert2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bKF-ns-I2J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nYG-1L-f2q" firstAttribute="top" secondItem="dGt-tb-CFF" secondAttribute="bottom" constant="10" id="BvR-Kq-eDl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DdI-rb-fM8" secondAttribute="trailing" constant="10" id="Ct4-bU-6be"/>
+                            <constraint firstItem="dGt-tb-CFF" firstAttribute="top" secondItem="DdI-rb-fM8" secondAttribute="bottom" constant="10" id="DDm-qh-fcR"/>
+                            <constraint firstItem="DdI-rb-fM8" firstAttribute="top" secondItem="hu9-Wk-ett" secondAttribute="bottom" constant="10" id="MC5-dY-D5h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dGt-tb-CFF" secondAttribute="trailing" constant="10" id="MXK-VD-yNW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hu9-Wk-ett" secondAttribute="trailing" constant="10" id="PED-KB-TQd"/>
+                            <constraint firstItem="mHS-uh-iZ3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="QkD-Hv-ebQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mHS-uh-iZ3" secondAttribute="trailing" constant="10" id="cEK-N5-udf"/>
+                            <constraint firstItem="dGt-tb-CFF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="e1S-k6-vcN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nYG-1L-f2q" secondAttribute="trailing" constant="10" id="eE2-rf-sDZ"/>
+                            <constraint firstItem="Al2-zG-rBl" firstAttribute="top" secondItem="nYG-1L-f2q" secondAttribute="bottom" constant="10" id="eKf-9u-lgT"/>
+                            <constraint firstItem="DdI-rb-fM8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="fSf-iY-KSI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Al2-zG-rBl" secondAttribute="trailing" constant="10" id="fhN-Yx-9Kx"/>
+                            <constraint firstItem="hu9-Wk-ett" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ine-Lq-yik"/>
+                            <constraint firstItem="Al2-zG-rBl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="nKC-Yk-3vI"/>
+                            <constraint firstItem="nYG-1L-f2q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="nwk-Km-8q4"/>
+                            <constraint firstItem="mHS-uh-iZ3" firstAttribute="top" secondItem="Al2-zG-rBl" secondAttribute="bottom" constant="10" id="qOX-qg-MKM"/>
+                            <constraint firstItem="hu9-Wk-ett" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ujt-s1-C8h"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
