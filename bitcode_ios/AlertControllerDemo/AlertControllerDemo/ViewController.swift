@@ -144,4 +144,24 @@ class ViewController: UIViewController {
             present(customAlert, animated: true)
         }
     }
+    
+    @IBAction func btnCustomAlert3(_ sender: Any) {
+        let customAlert = CustomAlertView(title: "Submit Exam", message: "Please enter your score:")
+        
+        customAlert.addTextField { textField in
+            textField.placeholder = "Score"
+            textField.keyboardType = .numberPad
+        }
+
+        customAlert.addAction(CustomAlertAction(title: "Submit", style: .default) { action in
+            let score = customAlert.getTextFieldValues().first ?? ""
+            print("Score submitted: \(score)")
+        })
+        
+        customAlert.addAction(CustomAlertAction(title: "Cancel", style: .cancel))
+
+        if presentedViewController == nil {
+            present(customAlert, animated: true)
+        }
+    }
 }

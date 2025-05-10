@@ -82,6 +82,17 @@
                                     <action selector="btnCustomAlert2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bKF-ns-I2J"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DwH-qI-Ivl">
+                                <rect key="frame" x="10" y="428" width="373" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="c99-gP-Sau"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Custom Alert 3"/>
+                                <connections>
+                                    <action selector="btnCustomAlert3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1u1-eV-g96"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -89,10 +100,12 @@
                             <constraint firstItem="nYG-1L-f2q" firstAttribute="top" secondItem="dGt-tb-CFF" secondAttribute="bottom" constant="10" id="BvR-Kq-eDl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DdI-rb-fM8" secondAttribute="trailing" constant="10" id="Ct4-bU-6be"/>
                             <constraint firstItem="dGt-tb-CFF" firstAttribute="top" secondItem="DdI-rb-fM8" secondAttribute="bottom" constant="10" id="DDm-qh-fcR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DwH-qI-Ivl" secondAttribute="trailing" constant="10" id="L8x-IA-ZPB"/>
                             <constraint firstItem="DdI-rb-fM8" firstAttribute="top" secondItem="hu9-Wk-ett" secondAttribute="bottom" constant="10" id="MC5-dY-D5h"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dGt-tb-CFF" secondAttribute="trailing" constant="10" id="MXK-VD-yNW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hu9-Wk-ett" secondAttribute="trailing" constant="10" id="PED-KB-TQd"/>
                             <constraint firstItem="mHS-uh-iZ3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="QkD-Hv-ebQ"/>
+                            <constraint firstItem="DwH-qI-Ivl" firstAttribute="top" secondItem="mHS-uh-iZ3" secondAttribute="bottom" constant="10" id="Qmu-U2-ZxK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mHS-uh-iZ3" secondAttribute="trailing" constant="10" id="cEK-N5-udf"/>
                             <constraint firstItem="dGt-tb-CFF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="e1S-k6-vcN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nYG-1L-f2q" secondAttribute="trailing" constant="10" id="eE2-rf-sDZ"/>
@@ -104,6 +117,7 @@
                             <constraint firstItem="nYG-1L-f2q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="nwk-Km-8q4"/>
                             <constraint firstItem="mHS-uh-iZ3" firstAttribute="top" secondItem="Al2-zG-rBl" secondAttribute="bottom" constant="10" id="qOX-qg-MKM"/>
                             <constraint firstItem="hu9-Wk-ett" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ujt-s1-C8h"/>
+                            <constraint firstItem="DwH-qI-Ivl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ybl-OR-vlG"/>
                         </constraints>
                     </view>
                 </viewController>

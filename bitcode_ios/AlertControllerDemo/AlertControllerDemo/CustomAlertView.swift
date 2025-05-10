@@ -11,7 +11,8 @@ class CustomAlertAction {
     let title: String
     let style: UIAlertAction.Style
     let completionHandler: ((CustomAlertAction) -> Void)?
-    
+    var calendar: UICalendarView
+
     init(title: String, style: UIAlertAction.Style, completionHandler: ((CustomAlertAction) -> Void)? = nil) {
         self.title = title
         self.style = style
@@ -23,6 +24,7 @@ class CustomAlertView: UIViewController {
     private var alertTitle: String?
     private var alertMessage: String?
     private var actions: [CustomAlertAction] = []
+    private var textFields: [UITextField] = []
     private let alertView = UIView()
     private let dimView = UIView()
     private var isAlertConfigured = false
@@ -57,37 +59,43 @@ class CustomAlertView: UIViewController {
             self.alertView.alpha = 1
         }
     }
-    
+
     func addAction(_ action: CustomAlertAction) {
         actions.append(action)
     }
-    
+
+    func addTextField(configure: ((UITextField) -> Void)? = nil) {
+        let textField = UITextField()
+        configure?(textField)
+        textFields.append(textField)
+    }
+
     private func setupBackground() {
-        dimView.backgroundColor = UIColor.black.withAlphaComponent(0.4)
+        dimView.backgroundColor = UIColor.black.withAlphaComponent(0.8)
         dimView.frame = view.bounds
         dimView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         view.addSubview(dimView)
     }
-    
+
     private func setupAlertView() {
         alertView.backgroundColor = .systemBackground
         alertView.layer.cornerRadius = 16
         alertView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(alertView)
-        
+
         let titleLabel = UILabel()
         titleLabel.text = alertTitle
         titleLabel.font = .boldSystemFont(ofSize: 20)
         titleLabel.textAlignment = .center
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        
+
         let messageLabel = UILabel()
         messageLabel.text = alertMessage
         messageLabel.font = .systemFont(ofSize: 16)
         messageLabel.textAlignment = .center
         messageLabel.numberOfLines = 0
         messageLabel.translatesAutoresizingMaskIntoConstraints = false
-        
+
         let buttonStack = UIStackView()
         buttonStack.axis = .vertical
         buttonStack.spacing = 8
@@ -113,16 +121,27 @@ class CustomAlertView: UIViewController {
             
             buttonStack.addArrangedSubview(button)
         }
+
+        let textFieldStack = UIStackView()
+        textFieldStack.axis = .vertical
+        textFieldStack.spacing = 12
+        textFieldStack.translatesAutoresizingMaskIntoConstraints = false
+        
+        for textField in textFields {
+            textField.borderStyle = .roundedRect
+            textFieldStack.addArrangedSubview(textField)
+        }
         
         alertView.addSubview(titleLabel)
         alertView.addSubview(messageLabel)
         alertView.addSubview(buttonStack)
+        alertView.addSubview(textFieldStack)
         
         NSLayoutConstraint.activate([
             alertView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             alertView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             alertView.widthAnchor.constraint(equalToConstant: 300),
-            
+
             titleLabel.topAnchor.constraint(equalTo: alertView.topAnchor, constant: 20),
             titleLabel.leadingAnchor.constraint(equalTo: alertView.leadingAnchor, constant: 16),
             titleLabel.trailingAnchor.constraint(equalTo: alertView.trailingAnchor, constant: -16),
@@ -130,18 +149,26 @@ class CustomAlertView: UIViewController {
             messageLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 12),
             messageLabel.leadingAnchor.constraint(equalTo: alertView.leadingAnchor, constant: 16),
             messageLabel.trailingAnchor.constraint(equalTo: alertView.trailingAnchor, constant: -16),
-            
-            buttonStack.topAnchor.constraint(equalTo: messageLabel.bottomAnchor, constant: 20),
+
+            textFieldStack.topAnchor.constraint(equalTo: messageLabel.bottomAnchor, constant: 20),
+            textFieldStack.leadingAnchor.constraint(equalTo: alertView.leadingAnchor, constant: 16),
+            textFieldStack.trailingAnchor.constraint(equalTo: alertView.trailingAnchor, constant: -16),
+
+            buttonStack.topAnchor.constraint(equalTo: textFieldStack.bottomAnchor, constant: 20),
             buttonStack.leadingAnchor.constraint(equalTo: alertView.leadingAnchor, constant: 16),
             buttonStack.trailingAnchor.constraint(equalTo: alertView.trailingAnchor, constant: -16),
             buttonStack.bottomAnchor.constraint(equalTo: alertView.bottomAnchor, constant: -20)
         ])
     }
-    
+
     @objc private func handleButtonTap(_ sender: UIButton) {
         let action = actions[sender.tag]
         dismiss(animated: true) {
             action.completionHandler?(action)
         }
+    }
+    
+    func getTextFieldValues() -> [String] {
+        return textFields.map { $0.text ?? "" }
     }
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="gTV-IL-0wX" customClass="MainCollectionViewCell" customModule="ContainerViewDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="106" height="116"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="106" height="116"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czb-qL-jLP">
+                        <rect key="frame" x="10" y="10" width="86" height="96"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="czb-qL-jLP" secondAttribute="trailing" constant="10" id="0Ph-li-FKq"/>
+                <constraint firstItem="czb-qL-jLP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="SNL-HM-kni"/>
+                <constraint firstAttribute="bottom" secondItem="czb-qL-jLP" secondAttribute="bottom" constant="10" id="Skq-6p-8hJ"/>
+                <constraint firstItem="czb-qL-jLP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="mQA-tg-Dox"/>
+            </constraints>
+            <size key="customSize" width="106" height="116"/>
+            <connections>
+                <outlet property="menuItemLabel" destination="czb-qL-jLP" id="B0z-rw-kHJ"/>
+            </connections>
+            <point key="canvasLocation" x="178.62595419847327" y="42.95774647887324"/>
+        </collectionViewCell>
+    </objects>
+</document>
